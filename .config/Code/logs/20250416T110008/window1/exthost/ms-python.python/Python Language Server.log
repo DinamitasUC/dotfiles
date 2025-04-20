@@ -1,0 +1,36 @@
+2025-04-16 11:00:20.099 [info] (Client) Pylance async client (2025.4.1) started with python extension (2025.4.0)
+2025-04-16 11:00:21.329 [info] [Info  - 11:00:21 a. m.] (4607) Server root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-16 11:00:21.330 [info] [Info  - 11:00:21 a. m.] (4607) Pylance language server 2025.4.1 (pyright version 1.1.398, commit 4f24eccc) starting
+2025-04-16 11:00:21.330 [info] [Info  - 11:00:21 a. m.] (4607) Starting service instance "mi_proyecto_api" for workspace "/home/HaroldUser/Desktop/mi_proyecto_api"
+2025-04-16 11:00:21.458 [info] [Info  - 11:00:21 a. m.] (4607) Setting environmentName for service "mi_proyecto_api": "3.13.2 (env venv)"
+2025-04-16 11:00:21.459 [info] [Info  - 11:00:21 a. m.] (4607) Setting pythonPath for service "mi_proyecto_api": "/home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python"
+2025-04-16 11:00:21.460 [info] [Info  - 11:00:21 a. m.] (4607) No include entries specified; assuming /home/HaroldUser/Desktop/mi_proyecto_api
+2025-04-16 11:00:21.462 [info] [Info  - 11:00:21 a. m.] (4607) Auto-excluding **/node_modules
+2025-04-16 11:00:21.462 [info] [Info  - 11:00:21 a. m.] (4607) Auto-excluding **/__pycache__
+2025-04-16 11:00:21.463 [info] [Info  - 11:00:21 a. m.] (4607) Auto-excluding **/.*
+2025-04-16 11:00:21.515 [info] [Info  - 11:00:21 a. m.] (4607) Assuming Python version 3.13.2.final.0
+2025-04-16 11:00:21.728 [info] [Info  - 11:00:21 a. m.] (4607) Auto-excluding /home/HaroldUser/Desktop/mi_proyecto_api/env
+2025-04-16 11:00:21.733 [info] [Info  - 11:00:21 a. m.] (4607) Found 1 source file
+2025-04-16 11:00:21.787 [info] [Info  - 11:00:21 a. m.] (4607) Setting environmentName for service "mi_proyecto_api": "3.13.2 (env venv)"
+2025-04-16 11:00:21.788 [info] [Info  - 11:00:21 a. m.] (4607) Setting pythonPath for service "mi_proyecto_api": "/home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python"
+2025-04-16 11:00:21.789 [info] [Info  - 11:00:21 a. m.] (4607) No include entries specified; assuming /home/HaroldUser/Desktop/mi_proyecto_api
+2025-04-16 11:00:21.790 [info] [Info  - 11:00:21 a. m.] (4607) Auto-excluding **/node_modules
+2025-04-16 11:00:21.791 [info] [Info  - 11:00:21 a. m.] (4607) Auto-excluding **/__pycache__
+2025-04-16 11:00:21.792 [info] [Info  - 11:00:21 a. m.] (4607) Auto-excluding **/.*
+2025-04-16 11:00:21.977 [info] [Info  - 11:00:21 a. m.] (4607) Assuming Python version 3.13.2.final.0
+2025-04-16 11:00:22.100 [info] [Info  - 11:00:22 a. m.] (4607) Auto-excluding /home/HaroldUser/Desktop/mi_proyecto_api/env
+2025-04-16 11:00:22.103 [info] [Info  - 11:00:22 a. m.] (4607) Found 1 source file
+2025-04-16 11:00:24.433 [info] [Info  - 11:00:24 a. m.] (4607) BG: Priority queue background worker(2) root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-16 11:00:24.435 [info] [Info  - 11:00:24 a. m.] (4607) BG: Priority queue background worker(2) started
+2025-04-16 11:00:24.961 [info] [Info  - 11:00:24 a. m.] (4607) BG: Indexer background runner(3) root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-04-16 11:00:24.961 [info] [Info  - 11:00:24 a. m.] (4607) BG: Indexing(3) started
+2025-04-16 11:00:26.475 [info] [Info  - 11:00:26 a. m.] (4607) BG: scanned(3) 40 files over 1 exec env
+2025-04-16 11:00:26.876 [info] [Info  - 11:00:26 a. m.] (4607) BG: indexed(3) 40 files over 1 exec env
+2025-04-16 11:00:26.933 [info] [Info  - 11:00:26 a. m.] (4607) BG: Indexing finished(3).
+2025-04-16 11:14:24.124 [info] [Info  - 11:14:24 a. m.] (4607) Auto-excluding /home/HaroldUser/Desktop/mi_proyecto_api/env
+2025-04-16 11:14:24.129 [info] [Info  - 11:14:24 a. m.] (4607) Found 1 source file
+2025-04-16 11:14:30.618 [info] [Info  - 11:14:30 a. m.] (4607) BG: Indexer background runner(4) root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (refresh)
+2025-04-16 11:14:30.619 [info] [Info  - 11:14:30 a. m.] (4607) BG: Indexing(4) started
+2025-04-16 11:14:31.553 [info] [Info  - 11:14:31 a. m.] (4607) BG: scanned(4) 41 files over 1 exec env
+2025-04-16 11:14:31.932 [info] [Info  - 11:14:31 a. m.] (4607) BG: indexed(4) 41 files over 1 exec env
+2025-04-16 11:14:31.960 [info] [Info  - 11:14:31 a. m.] (4607) BG: Indexing finished(4).

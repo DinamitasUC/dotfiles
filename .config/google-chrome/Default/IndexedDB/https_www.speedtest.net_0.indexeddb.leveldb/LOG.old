@@ -1,0 +1,20 @@
+2025/04/09-22:42:09.155 58c3 Creating DB /home/HaroldUser/.config/google-chrome/Default/IndexedDB/https_www.speedtest.net_0.indexeddb.leveldb since it was missing.
+2025/04/09-22:42:09.168 58c3 Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Default/IndexedDB/https_www.speedtest.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/09-22:42:09.510 58c3 Level-0 table #5: started
+2025/04/09-22:42:09.515 58c3 Level-0 table #5: 1210 bytes OK
+2025/04/09-22:42:09.521 58c3 Delete type=0 #3
+2025/04/09-22:42:09.521 58c2 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/09-22:42:09.570 58c3 Level-0 table #7: started
+2025/04/09-22:42:09.575 58c3 Level-0 table #7: 5252 bytes OK
+2025/04/09-22:42:09.578 58c3 Delete type=0 #4
+2025/04/09-22:42:09.578 58c1 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/09-22:42:09.891 58ca Level-0 table #9: started
+2025/04/09-22:42:09.897 58ca Level-0 table #9: 2909 bytes OK
+2025/04/09-22:42:09.906 58ca Delete type=0 #6
+2025/04/09-22:42:09.910 58c1 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x05\x00\x00\xc8\x18\x00u\x00s\x00e\x00r\x00_\x00U\x00n\x00i\x00v\x00S\x00p\x00e\x00e\x00d\x00T\x00e\x00s\x00t\x00R\x00e\x00s\x00u\x00l\x00t' @ 611 : 0
+2025/04/09-22:42:09.910 58c1 Compacting 1@0 + 1@1 files
+2025/04/09-22:42:09.917 58c1 Generated table #10@0: 168 keys, 2195 bytes
+2025/04/09-22:42:09.917 58c1 Compacted 1@0 + 1@1 files => 2195 bytes
+2025/04/09-22:42:09.921 58c1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/09-22:42:09.921 58c1 Delete type=2 #9
+2025/04/09-22:42:09.922 58c2 Manual compaction at level-0 from '\x00\x05\x00\x00\xc8\x18\x00u\x00s\x00e\x00r\x00_\x00U\x00n\x00i\x00v\x00S\x00p\x00e\x00e\x00d\x00T\x00e\x00s\x00t\x00R\x00e\x00s\x00u\x00l\x00t' @ 611 : 0 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

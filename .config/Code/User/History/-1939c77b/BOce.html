@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Luxury - Gestión de Pagos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --success-color: #27ae60;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --gray-light: #bdc3c7;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #f5f7fa;
+            margin: 0;
+            padding: 0;
+            color: var(--dark-color);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        
+        .card-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 20px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .card-title {
+            margin: 0;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        
+        .card-body {
+            padding: 25px;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: none;
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+        
+        .btn-primary {
+            background: var(--secondary-color);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(41, 128, 185, 0.3);
+        }
+        
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 0.85rem;
+        }
+        
+        .btn-edit {
+            background: var(--warning-color);
+            color: white;
+        }
+        
+        .btn-delete {
+            background: var(--danger-color);
+            color: white;
+        }
+        
+        .btn-edit:hover, .btn-delete:hover {
+            opacity: 0.9;
+            transform: translateY(-1px);
+        }
+        
+        .table-responsive {
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+        
+        table thead {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        table th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+        
+        table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            vertical-align: middle;
+        }
+        
+        table tbody tr:last-child td {
+            border-bottom: none;
+        }
+        
+        table tbody tr:hover {
+            background: rgba(52, 152, 219, 0.05);
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .badge-success {
+            background: rgba(39, 174, 96, 0.1);
+            color: var(--success-color);
+        }
+        
+        .badge-warning {
+            background: rgba(241, 196, 15, 0.1);
+            color: #f1c40f;
+        }
+        
+        .badge-danger {
+            background: rgba(231, 76, 60, 0.1);
+            color: var(--danger-color);
+        }
+        
+        .payment-method {
+            display: flex;
+            align-items: center;
+        }
+        
+        .payment-icon {
+            margin-right: 8px;
+            font-size: 1.2rem;
+        }
+        
+        .card-credit {
+            color: #3498db;
+        }
+        
+        .transfer {
+            color: #9b59b6;
+        }
+        
+        .cash {
+            color: #27ae60;
+        }
+        
+        .text-right {
+            text-align: right;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .actions {
+            display: flex;
+            gap: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            .card-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+            }
+            
+            table th, table td {
+                padding: 10px 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="card-title">
+                    <i class="fas fa-credit-card"></i> Gestión de Pagos
+                </h2>
+                <a href="#" class="btn btn-primary">
+                    <i class="fas fa-plus-circle"></i> Registrar Nuevo Pago
+                </a>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID Pago</th>
+                                <th>Reserva</th>
+                                <th>Monto</th>
+                                <th>Método</th>
+                                <th>Fecha</th>
+                                <th>Estado</th>
+                                <th class="text-right">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#PAY-001</td>
+                                <td>RES-101 (Suite Presidencial)</td>
+                                <td>$1,250.00</td>
+                                <td>
+                                    <div class="payment-method">
+                                        <i class="fas fa-credit-card payment-icon card-credit"></i>
+                                        Tarjeta Crédito
+                                    </div>
+                                </td>
+                                <td>14/04/2025 10:23</td>
+                                <td><span class="status-badge badge-success">Completado</span></td>
+                                <td class="text-right">
+                                    <div class="actions">
+                                        <a href="#" class="btn btn-edit btn-sm">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-delete btn-sm">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fas fa-receipt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#PAY-002</td>
+                                <td>RES-102 (Habitación Doble)</td>
+                                <td>$750.00</td>
+                                <td>
+                                    <div class="payment-method">
+                                        <i class="fas fa-exchange-alt payment-icon transfer"></i>
+                                        Transferencia
+                                    </div>
+                                </td>
+                                <td>14/04/2025 11:10</td>
+                                <td><span class="status-badge badge-success">Completado</span></td>
+                                <td class="text-right">
+                                    <div class="actions">
+                                        <a href="#" class="btn btn-edit btn-sm">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-delete btn-sm">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fas fa-receipt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#PAY-003</td>
+                                <td>RES-103 (Habitación Individual)</td>
+                                <td>$300.00</td>
+                                <td>
+                                    <div class="payment-method">
+                                        <i class="fas fa-money-bill-wave payment-icon cash"></i>
+                                        Efectivo
+                                    </div>
+                                </td>
+                                <td>14/04/2025 12:45</td>
+                                <td><span class="status-badge badge-warning">Pendiente</span></td>
+                                <td class="text-right">
+                                    <div class="actions">
+                                        <a href="#" class="btn btn-edit btn-sm">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-delete btn-sm">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fas fa-receipt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>#PAY-004</td>
+                                <td>RES-104 (Suite Ejecutiva)</td>
+                                <td>$980.00</td>
+                                <td>
+                                    <div class="payment-method">
+                                        <i class="fas fa-credit-card payment-icon card-credit"></i>
+                                        Tarjeta Débito
+                                    </div>
+                                </td>
+                                <td>13/04/2025 09:15</td>
+                                <td><span class="status-badge badge-danger">Rechazado</span></td>
+                                <td class="text-right">
+                                    <div class="actions">
+                                        <a href="#" class="btn btn-edit btn-sm">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-delete btn-sm">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </a>
+                                        <a href="#" class="btn btn-primary btn-sm">
+                                            <i class="fas fa-receipt"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

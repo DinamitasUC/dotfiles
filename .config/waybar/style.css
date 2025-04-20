@@ -1,0 +1,125 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", "Font Awesome 6 Free";
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(30, 30, 46, 0.9);
+    color: #cdd6f4;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    background: transparent;
+    color: #cdd6f4;
+    border-bottom: 2px solid transparent;
+}
+
+#workspaces button.focused {
+    background: #585b70;
+    border-bottom: 2px solid #cba6f7;
+}
+
+#workspaces button.urgent {
+    background-color: #f38ba8;
+}
+
+#clock, #battery, #cpu, #memory, #temperature, #network, #pulseaudio, #tray, #custom-launcher {
+    padding: 0 10px;
+    margin: 0 4px;
+    color: #cdd6f4;
+}
+
+#custom-launcher {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: 0;
+    color: #89b4fa;
+}
+
+#clock {
+    background-color: #585b70;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#battery {
+    color: #a6e3a1;
+}
+
+#battery.charging {
+    color: #a6e3a1;
+}
+
+@keyframes blink {
+    to {
+        background-color: #cdd6f4;
+        color: #1e1e2e;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background: #f38ba8;
+    color: #1e1e2e;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#cpu {
+    color: #94e2d5;
+}
+
+#memory {
+    color: #cba6f7;
+}
+
+#temperature {
+    color: #fab387;
+}
+
+#temperature.critical {
+    background: #f38ba8;
+    color: #1e1e2e;
+}
+
+#network {
+    color: #89b4fa;
+}
+
+#network.disconnected {
+    color: #f38ba8;
+}
+
+#pulseaudio {
+    color: #f9e2af;
+}
+
+#pulseaudio.muted {
+    color: #f38ba8;
+}
+
+#tray {
+    padding-right: 16px;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #f38ba8;
+}

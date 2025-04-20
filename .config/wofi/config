@@ -1,0 +1,6 @@
+width = 600
+height = 400
+prompt = "Buscar..."
+show = drun
+insensitive = true  # Búsqueda sin distinguir mayúsculas
+allow_images = true # Mostrar iconos

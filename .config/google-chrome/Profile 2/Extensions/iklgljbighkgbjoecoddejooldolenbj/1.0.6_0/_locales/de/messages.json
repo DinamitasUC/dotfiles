@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Zeichnen Sie Rechtecke, Kreise, Linien und andere Formen oder fügen Sie Text auf einer beliebigen Website hinzu, und erstellen Sie dann eine Bildschirmaufnahme des Ergebnisses."
+   },
+   "name": {
+      "message": "Web Paint Tool - online zeichnen"
+   },
+   "rateDialogDesc": {
+      "message": "Würde es Ihnen etwas ausmachen, uns im Chrome Web Store zu bewerten? Danke!"
+   },
+   "rateDialogNo": {
+      "message": "Vielleicht nächstes Mal"
+   },
+   "rateDialogTitle": {
+      "message": "Nützliche App für Sie?"
+   },
+   "rateDialogYes": {
+      "message": "OK, sicher"
+   }
+}

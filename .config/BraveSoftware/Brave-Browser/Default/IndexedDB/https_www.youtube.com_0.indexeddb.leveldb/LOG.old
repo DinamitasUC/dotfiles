@@ -1,0 +1,12 @@
+2025/04/19-22:06:39.674 4c7 Reusing MANIFEST /home/HaroldUser/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/19-22:06:39.675 4c7 Recovering log #81
+2025/04/19-22:06:39.687 4c7 Reusing old log /home/HaroldUser/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000081.log 
+2025/04/19-22:06:59.189 4c7 Level-0 table #87: started
+2025/04/19-22:06:59.224 4c7 Level-0 table #87: 1684575 bytes OK
+2025/04/19-22:06:59.229 4c7 Delete type=0 #81
+2025/04/19-22:12:23.726 4c9 Compacting 1@1 + 1@2 files
+2025/04/19-22:12:23.738 4c9 Generated table #88@1: 341 keys, 54637 bytes
+2025/04/19-22:12:23.738 4c9 Compacted 1@1 + 1@2 files => 54637 bytes
+2025/04/19-22:12:23.741 4c9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/19-22:12:23.742 4c9 Delete type=2 #84
+2025/04/19-22:12:23.742 4c9 Delete type=2 #87

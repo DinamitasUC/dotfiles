@@ -1,0 +1,36 @@
+{
+   "action": {
+      "default_icon": {
+         "38": "icons/38.png"
+      },
+      "default_title": "Web Paint Tool"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "/css/modal.css" ],
+      "js": [ "/jquery-3.2.1.min.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "48": "icons/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAz9014CLZc/femLEEHuJInU7zBcQA4Rdrm7Nm4gb7vrHy1s5DSzVmCBkykpBBIDysXd1ZOHo3c86PF7EvAG+iOs2WfN5+PCUUM0cEVnWy/ZU5GCgOp3p32jbvUBOD1OWh/b8oU9Wf6Pa2Dc8Tr0vFGd9QOdTo2MejYRNq3lHwo0hG1MaQmqESfafh8GjX7klhomX0FZXwVtXtx/h73GWGdNmrhbPj9UwIXn9Be7waY9c8Xh/WyLmzA65AUP7rE0i5B+KtJ8Hsg0LS09h/krQ52K/0mXmlem1XSFp0LuwP2ml4Tz6RforvWrS8eU5M6fARd36Wk1lYmx6QpYMZbP2vmwIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "options_page": "settings.html",
+   "permissions": [ "alarms", "scripting", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.6"
+}

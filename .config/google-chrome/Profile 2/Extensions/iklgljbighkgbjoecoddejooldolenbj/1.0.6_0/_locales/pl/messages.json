@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Malowanie internetowe — narysuj prostokąt, okrąg, linie i inne kształty lub dodaj tekst na dowolnych stronach internetowych, a następnie wykonaj zrzut ekranu. Obraz zrzutu ekranu."
+   },
+   "name": {
+      "message": "Narzędzie do malowania"
+   },
+   "rateDialogDesc": {
+      "message": "Czy mógłbyś ocenić nas w Chrome Web Store? Dziękuję Ci!"
+   },
+   "rateDialogNo": {
+      "message": "Może następnym razem"
+   },
+   "rateDialogTitle": {
+      "message": "Przydatna aplikacja dla Ciebie?"
+   },
+   "rateDialogYes": {
+      "message": "OK"
+   }
+}

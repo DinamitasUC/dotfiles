@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Pintura web: dibuixeu rectangles, cercles, línies i altres formes o afegiu text a qualsevol pàgina web i, a continuació, feu una captura de pantalla del resultat. Imatge de captura de pantalla."
+   },
+   "name": {
+      "message": "Eina de pintura web"
+   },
+   "rateDialogDesc": {
+      "message": "Would you mind rating us on the Chrome Web Store? Thank you!"
+   },
+   "rateDialogNo": {
+      "message": "Maybe next time"
+   },
+   "rateDialogTitle": {
+      "message": "Useful App for you?"
+   },
+   "rateDialogYes": {
+      "message": "OK, sure"
+   }
+}

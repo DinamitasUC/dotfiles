@@ -1,0 +1,326 @@
+{
+   "checksum": "d09bb46901f90c66c40e73cfbd232787",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13292134457000000",
+            "date_last_used": "0",
+            "guid": "48b7f844-7d32-4b9e-870c-8f2d57d010cf",
+            "id": "5",
+            "name": "Hojas de cálculo de Google",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/u/0/"
+         }, {
+            "date_added": "13292134428000000",
+            "date_last_used": "0",
+            "guid": "762f7ff7-3d62-422b-ab8e-91cb34827fe9",
+            "id": "6",
+            "name": "Documentos de Google",
+            "type": "url",
+            "url": "https://docs.google.com/document/u/0/"
+         }, {
+            "date_added": "13301636298000000",
+            "date_last_used": "0",
+            "guid": "bb91ebeb-e8c0-4084-86d0-6f0fbf848a6c",
+            "id": "7",
+            "name": "Products | Learn | Pearson English Portal",
+            "type": "url",
+            "url": "https://english-dashboard.pearson.com/dashboard/home?activityMode=STUDENT&currentEntities=products&filter=ACTIVE"
+         }, {
+            "date_added": "13315597228000000",
+            "date_last_used": "0",
+            "guid": "b7af9bc2-95c5-4236-a76f-a39dad1cbe01",
+            "id": "8",
+            "name": "* Panel | Khan Academy",
+            "type": "url",
+            "url": "https://es.khanacademy.org/profile/me/courses"
+         }, {
+            "date_added": "13247343880000000",
+            "date_last_used": "0",
+            "guid": "44b837ca-6b04-4dab-91e4-baa47279aad7",
+            "id": "9",
+            "name": "Con Clase - Cursos en la red",
+            "type": "url",
+            "url": "http://conclase.net/"
+         }, {
+            "date_added": "13283475566000000",
+            "date_last_used": "0",
+            "guid": "2734161b-9527-4ac3-8cf5-d2d8394287ca",
+            "id": "10",
+            "name": "Api Facturación :: Bucar RUC",
+            "type": "url",
+            "url": "https://apifacturacion.com/?fbclid=IwAR3p6GGNQbsvthYFQc0WUA8_9AOXemGLvWgOFwSWcG1rzCIOU-7vOPykoc8"
+         }, {
+            "date_added": "13325315132000000",
+            "date_last_used": "0",
+            "guid": "a7d8bade-7211-480a-ad42-3c0761935356",
+            "id": "11",
+            "name": "Advanced item search in combobox C# - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/72065900/advanced-item-search-in-combobox-c-sharp"
+         }, {
+            "date_added": "13325466107000000",
+            "date_last_used": "0",
+            "guid": "c0cf13a3-04dc-4270-8dd1-feda3088d5c6",
+            "id": "12",
+            "name": "C# Tutorial - Change ConnectionString at Runtime with App.config | FoxLearn - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=-KdqdWTNO7Q"
+         }, {
+            "date_added": "13349913699000000",
+            "date_last_used": "0",
+            "guid": "1efcc9bc-d8b8-45e7-800c-70925492f477",
+            "id": "13",
+            "name": "(4) Facturación electrónica SFS, Sistema Facturador Sunat | Por si les interesa, adjunto archivos que envié para el RESUMEN DIARIO y me cargo correctamente en la versión del Facturador 1.4 | Facebook",
+            "type": "url",
+            "url": "https://www.facebook.com/groups/244609969259446/posts/1570290103358086/"
+         }, {
+            "date_added": "13361164900000000",
+            "date_last_used": "0",
+            "guid": "8d7fca38-b315-4f84-aab8-b94d22003379",
+            "id": "14",
+            "name": "Ecuaciones Diferenciales con Python",
+            "type": "url",
+            "url": "https://relopezbriega.github.io/blog/2016/01/10/ecuaciones-diferenciales-con-python/"
+         }, {
+            "date_added": "13364969500000000",
+            "date_last_used": "0",
+            "guid": "d1561008-159d-4733-8493-cf61466215ad",
+            "id": "15",
+            "name": "Validación de Comprobantes Electrónicos con API de SUNAT - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=3gJizy4qOlU"
+         }, {
+            "date_added": "13365057440000000",
+            "date_last_used": "0",
+            "guid": "17762233-e653-4436-a607-9ae4e3c661fd",
+            "id": "16",
+            "name": "(3) Vídeo 01 - Curso Facturación Electrónica Sunat en C# Visual Studio 2019- Convertir XSD a Clases C# - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=SNpp_OhSY68"
+         }, {
+            "date_added": "13366871658000000",
+            "date_last_used": "0",
+            "guid": "bd1d4cbb-089b-4b00-9d5b-c07314af1857",
+            "id": "17",
+            "name": "(13) Como descargar el detalle de los Comprobantes de Compras y Ventas del SIRE - SUNAT 2023 Actualizado - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=6l8Q0K1in5g"
+         }, {
+            "date_added": "13368690187000000",
+            "date_last_used": "0",
+            "guid": "02cf8c01-237b-4c05-8fed-7c1d0ae3aa4c",
+            "id": "18",
+            "name": "Episoden - Talk in English",
+            "type": "url",
+            "url": "https://www.episoden.com/"
+         }, {
+            "date_added": "13371530537000000",
+            "date_last_used": "0",
+            "guid": "bd5bbc46-f8d8-4600-b9e9-37841a32ccc8",
+            "id": "19",
+            "name": "Motokano Sensei wa, Choppiri Ecchi na Katei Houmon de Kimi to no Ai wo Hagukumitai - Manga - TuMangaOnline",
+            "type": "url",
+            "url": "https://visortmo.com/library/manga/79767/motokano-sensei-wa-choppiri-ecchi-na-katei-houmon-de-kimi-to-no-ai-wo-hagukumitai"
+         }, {
+            "date_added": "13371889977000000",
+            "date_last_used": "0",
+            "guid": "7492ec30-4a2e-4f06-a7c0-1f4b07a2ad34",
+            "id": "20",
+            "name": "(16) 📊 📈 Uso de charts en C# - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=I_JHlsk2nXU"
+         }, {
+            "date_added": "13372525107000000",
+            "date_last_used": "0",
+            "guid": "42c5dffd-2dc4-4a68-b09e-40f74ccfff5d",
+            "id": "21",
+            "name": "(1) Arduino IOT Cloud y ESP32 / Visualizar y Controlar Variables desde Internet - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=pC5W88NTJ1U"
+         }, {
+            "date_added": "13372525207000000",
+            "date_last_used": "0",
+            "guid": "ba8722d4-4690-4396-8e06-21dd4b8da935",
+            "id": "22",
+            "name": "(1) Control Remoto de LED con Blynk y ESP32 - Guía Completa IoT | Fácil y Rápido - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=NxjB2v1r-44"
+         }, {
+            "date_added": "13373592891000000",
+            "date_last_used": "0",
+            "guid": "0748bcc1-b87e-4309-a012-7dfb558edae1",
+            "id": "23",
+            "name": "(26) ¿Cómo trabajar Entity Framework con Mysql en Visual Studio 2019? - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=D7UPAWFg2lk"
+         }, {
+            "date_added": "13374386408000000",
+            "date_last_used": "0",
+            "guid": "7e2fe865-4298-498f-8bbc-63b3a1d49063",
+            "id": "24",
+            "name": "Reniec CDT",
+            "type": "url",
+            "url": "https://cdt.reniec.gob.pe/_oDmsGmTcPOxvfK9FNFKsUe8aQc"
+         }, {
+            "date_added": "13348342308000000",
+            "date_last_used": "0",
+            "guid": "164a5cd1-ba55-47a9-9768-a01a3041eba1",
+            "id": "25",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&hd=continental.edu.pe&ifkv=ASKXGp3zFA6kvdnXNN2GrWEisosbqxiKW910v5fOy-H1nXkK_rlcSyZa89-sq0R328QPM1CcuZWyZA&ltmpl=default&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-989238997%3A1703868706623170&theme=glif#identifier"
+         }, {
+            "date_added": "13302725901000000",
+            "date_last_used": "0",
+            "guid": "7985153c-7253-441c-9f8a-6a3722cef708",
+            "id": "26",
+            "name": "Servicios Virtuales - Universidad Continental",
+            "type": "url",
+            "url": "https://www.continental.edu.pe/servicios/"
+         }, {
+            "date_added": "13348342360000000",
+            "date_last_used": "0",
+            "guid": "48cec073-d03a-4d8b-a74c-aa7aea71d2dc",
+            "id": "27",
+            "name": "Portal del Estudiante - Universidad Continental",
+            "type": "url",
+            "url": "https://estudiantes.ucontinental.edu.pe/"
+         }, {
+            "date_added": "13376026352000000",
+            "date_last_used": "0",
+            "guid": "e8c7aefe-0ca4-4404-a3ae-fb4a85e01160",
+            "id": "28",
+            "name": "Untitled agent",
+            "type": "url",
+            "url": "https://creator.voiceflow.com/project/673555631ef5ff669216ffa0/prototype"
+         }, {
+            "date_added": "13376583691000000",
+            "date_last_used": "0",
+            "guid": "f51727ee-de21-4110-b67c-117b2634051d",
+            "id": "29",
+            "name": "(42) Crear CRUD en Windows Forms con C# .Net, Entity Framework y Sql Server - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=JAfg2j8qrsg"
+         }, {
+            "date_added": "13379053238000000",
+            "date_last_used": "0",
+            "guid": "dce641ce-aca0-41e0-aab6-7c1f0a9495a9",
+            "id": "30",
+            "name": "(51) Scraping consulta RUC 2024-12 ya no pide validación de recaptcha #csharp - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=UFN-e_sLAEE"
+         }, {
+            "date_added": "13379132848000000",
+            "date_last_used": "0",
+            "guid": "9297b3d8-a17c-439b-9166-3f623d393eb7",
+            "id": "31",
+            "name": "(56) CÓMO GRABAR LA PANTALLA CON PYTHON - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=mqcjNL-PpF8"
+         }, {
+            "date_added": "13379400021000000",
+            "date_last_used": "0",
+            "guid": "d8199fc9-d2dd-4932-8bfd-2e2178cb9a92",
+            "id": "32",
+            "name": "TMOHentai - CHOTTO DAKE AI GA OMOI DARK ELF GA ISEKAI KARA OIKAKETE KITA 2",
+            "type": "url",
+            "url": "https://tmohentai.com/contents/61774202dfdfa"
+         }, {
+            "date_added": "13302725655000000",
+            "date_last_used": "0",
+            "guid": "709234a3-5b19-488c-b4ac-3815492f6d4e",
+            "id": "33",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&service=mail&sacu=1&hd=continental.edu.pe&flowName=GlifWebSignIn&flowEntry=ServiceLogin#identifier"
+         }, {
+            "date_added": "13388539257000000",
+            "date_last_used": "0",
+            "guid": "6178084f-7abc-43fa-8ce6-ab7afa10b33f",
+            "id": "34",
+            "name": "Create Prompt | Google AI Studio",
+            "type": "url",
+            "url": "https://aistudio.google.com/prompts/new_chat"
+         }, {
+            "date_added": "13388541054000000",
+            "date_last_used": "0",
+            "guid": "0666bda8-6f99-42b2-be26-776a680e938f",
+            "id": "35",
+            "name": "Google NotebookLM | Note Taking & Research Assistant Powered by AI",
+            "type": "url",
+            "url": "https://notebooklm.google/"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13073108929000000",
+                  "date_last_used": "0",
+                  "guid": "eda2c5e2-4e54-4d26-990c-8080433afe89",
+                  "id": "38",
+                  "name": "Nueva pestaña",
+                  "type": "url",
+                  "url": "chrome://newtab/"
+               }, {
+                  "date_added": "13342835668000000",
+                  "date_last_used": "0",
+                  "guid": "2b89e1d0-19ff-4f3e-a229-10d709f11ba4",
+                  "id": "39",
+                  "name": "(7) CONDROMALACIA rotuliana. Cómo aliviar el DOLOR de rodilla ✅ 10 ejercicios + 2 Activaciones EXTRA - YouTube",
+                  "type": "url",
+                  "url": "https://www.youtube.com/watch?v=P7u7BP4e7vU&t=578s"
+               }, {
+                  "date_added": "13343614057000000",
+                  "date_last_used": "0",
+                  "guid": "32a9c267-7ef8-4414-92cb-d80fb3cf8cd6",
+                  "id": "40",
+                  "name": "Inicio - La Encerrona",
+                  "type": "url",
+                  "url": "https://laencerrona.pe/"
+               } ],
+               "date_added": "13388964569836028",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "4b5d552c-b99f-42f5-8e1b-204e49648363",
+               "id": "37",
+               "name": "Otros favoritos",
+               "type": "folder"
+            } ],
+            "date_added": "13388964569835870",
+            "date_last_used": "0",
+            "date_modified": "13388964569835870",
+            "guid": "e47f4290-3d2a-4751-af62-9b8d316738a4",
+            "id": "36",
+            "name": "Importado de Google Chrome Harold.",
+            "type": "folder"
+         } ],
+         "date_added": "13388964540774872",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13388964540774885",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13388964540774888",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos del dispositivo",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

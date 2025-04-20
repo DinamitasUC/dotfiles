@@ -1,0 +1,15 @@
+2025/04/15-15:36:54.809 af6 Reusing MANIFEST /home/HaroldUser/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/15-15:36:54.810 af6 Recovering log #4
+2025/04/15-15:36:54.810 af6 Reusing old log /home/HaroldUser/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chat.deepseek.com_0.indexeddb.leveldb/000004.log 
+2025/04/15-15:44:08.568 af5 Level-0 table #8: started
+2025/04/15-15:44:08.572 af5 Level-0 table #8: 190 bytes OK
+2025/04/15-15:44:08.576 af5 Delete type=0 #4
+2025/04/15-15:44:08.576 af5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/04/15-15:44:08.577 af5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 117 : 1
+2025/04/15-15:44:08.577 af5 Compacting 1@1 + 1@2 files
+2025/04/15-15:44:08.581 af5 Generated table #9@1: 41 keys, 895 bytes
+2025/04/15-15:44:08.581 af5 Compacted 1@1 + 1@2 files => 895 bytes
+2025/04/15-15:44:08.583 af5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/15-15:44:08.584 af5 Delete type=2 #5
+2025/04/15-15:44:08.584 af5 Delete type=2 #8
+2025/04/15-15:44:08.584 af5 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 117 : 1 .. (end); will stop at (end)

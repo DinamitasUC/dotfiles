@@ -1,0 +1,32 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/icon128.png",
+         "16": "images/icon16.png",
+         "48": "images/icon48.png"
+      },
+      "default_title": "Tasksboard"
+   },
+   "background": {
+      "service_worker": "serviceWorker.js"
+   },
+   "description": "Standalone Desktop app for Google Tasks. Export and share your Google Tasks lists in one click.",
+   "differential_fingerprint": "1.aaff3d90f5843666af49f17caec8eb82b6b671abc8085b5001758a6872b99dc2",
+   "homepage_url": "https://tasksboard.com",
+   "host_permissions": [ "https://tasksboard.com/*", "http://localhost/*" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp3+eMGP7lBnlw+yO1/cfGWqyNsDwVA1m0dDmdeIuSnYufiJqMRral8rsrseQYgqzSEcOco145TE6TWaTDoo+l4kCpCmhFccImypZJ3/lfW2j8MFBpxx08mgu2zQslKjxxVESm0FqLW8zX/FkZHoZl4Oz+PxT7DUHHmXcWm1ks8oIzK2b1vVtvIf7CzxasN5NEJIemXnC+0/sfOHiK3ZXSnH9aIGgI/tMPgHqh1rTVb0SSXDdu33euE6mwtwI0CT5QzLLGPueonHfNeqRPFzRvDPs3NqQEHzbTWmgnAdt9aNLpSv2IlJRA4v/qFpEEr6myiu45v6Y4rEbWi1RfaZ57wIDAQAB",
+   "manifest_version": 3,
+   "name": "Desktop app for Google Tasks",
+   "permissions": [ "sidePanel", "contextMenus" ],
+   "short_name": "Tasksboard",
+   "side_panel": {
+      "default_path": "sidePanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.3"
+}

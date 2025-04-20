@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: #1f2024;
+                }
+            }
+        </style>
+    </head>
+    <body style="height: 100vh; width: auto; margin: 0px; overscroll-behavior: none">
+        <script type="module" src="sidePanel.js"></script>
+        <iframe
+            id="app"
+            style="
+                box-sizing: border-box;
+                height: 100%;
+                width: 100%;
+                z-index: 1000;
+                background-color: white;
+                border: none;
+            "
+            allow="clipboard-read; clipboard-write"
+        ></iframe>
+    </body>
+</html>

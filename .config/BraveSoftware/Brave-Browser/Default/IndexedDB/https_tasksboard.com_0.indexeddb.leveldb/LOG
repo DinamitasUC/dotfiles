@@ -1,0 +1,10 @@
+2025/04/12-15:49:38.322 30c1 Creating DB /home/HaroldUser/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tasksboard.com_0.indexeddb.leveldb since it was missing.
+2025/04/12-15:49:38.333 30c1 Reusing MANIFEST /home/HaroldUser/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tasksboard.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/12-15:49:38.356 30c0 Level-0 table #5: started
+2025/04/12-15:49:38.360 30c0 Level-0 table #5: 1321 bytes OK
+2025/04/12-15:49:38.366 30c0 Delete type=0 #3
+2025/04/12-15:49:38.366 30c1 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/12-15:49:39.764 30c0 Level-0 table #7: started
+2025/04/12-15:49:39.768 30c0 Level-0 table #7: 3949 bytes OK
+2025/04/12-15:49:39.771 30c0 Delete type=0 #4
+2025/04/12-15:49:39.772 30c0 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

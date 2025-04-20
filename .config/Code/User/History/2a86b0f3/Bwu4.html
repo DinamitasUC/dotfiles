@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relación Reserva - Servicio | Sistema de Gestión</title>
+    <meta name="description" content="Interfaz para gestionar la relación entre reservas y servicios">
+    <style>
+        :root {
+            --primary-color: #0096c7;
+            --primary-hover: #0077b6;
+            --secondary-color: #48cae4;
+            --danger-color: #e63946;
+            --warning-color: #ffb703;
+            --light-bg: #f8f9fa;
+            --dark-text: #212529;
+            --light-text: #f8f9fa;
+            --border-radius: 12px;
+            --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            color: var(--dark-text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: #ffffff;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        
+        h1 {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        
+        .header-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .search-filter {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .search-box {
+            padding: 0.75rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            min-width: 250px;
+            transition: var(--transition);
+        }
+        
+        .search-box:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px rgba(0, 150, 199, 0.2);
+        }
+        
+        .filter-select {
+            padding: 0.75rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            background-color: white;
+            cursor: pointer;
+        }
+        
+        .actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--border-radius);
+            border: none;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            font-size: 0.95rem;
+        }
+        
+        .btn-primary {
+            background: var(--primary-color);
+            color: white;
+            box-shadow: 0 4px 12px rgba(0, 150, 199, 0.25);
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 119, 182, 0.3);
+        }
+        
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+        
+        .btn-icon {
+            margin-right: 0.5rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0 0.75rem;
+            margin-top: 1rem;
+        }
+        
+        table thead tr {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        table th {
+            padding: 1rem 1.25rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        table th:first-child {
+            border-top-left-radius: var(--border-radius);
+        }
+        
+        table th:last-child {
+            border-top-right-radius: var(--border-radius);
+        }
+        
+        table tbody tr {
+            background: white;
+            transition: var(--transition);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        
+        table tbody tr:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        table td {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 0.35rem 0.75rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .status-active {
+            background-color: #d1fae5;
+            color: #065f46;
+        }
+        
+        .status-pending {
+            background-color: #fef3c7;
+            color: #92400e;
+        }
+        
+        .btn-group {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        .btn-action {
+            padding: 0.5rem 0.75rem;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .btn-edit {
+            background-color: var(--warning-color);
+            color: #000;
+        }
+        
+        .btn-edit:hover {
+            background-color: #e0a800;
+        }
+        
+        .btn-delete {
+            background-color: var(--danger-color);
+            color: white;
+        }
+        
+        .btn-delete:hover {
+            background-color: #b52a37;
+        }
+        
+        .pagination {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            gap: 0.5rem;
+        }
+        
+        .page-item {
+            list-style: none;
+        }
+        
+        .page-link {
+            display: block;
+            padding: 0.5rem 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .page-link:hover {
+            background-color: #f1f1f1;
+        }
+        
+        .page-active .page-link {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #6c757d;
+        }
+        
+        .empty-state-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #dee2e6;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+            
+            .header-section {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .search-filter {
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+            
+            .search-box, .filter-select {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Relación Reserva - Servicio</h1>
+        
+        <div class="header-section">
+            <div class="search-filter">
+                <input type="text" class="search-box" placeholder="Buscar reserva o servicio..." aria-label="Buscar reservas o servicios">
+                <select class="filter-select" aria-label="Filtrar por estado">
+                    <option value="">Todos</option>
+                    <option value="active">Activos</option>
+                    <option value="pending">Pendientes</option>
+                </select>
+            </div>
+            
+            <div class="actions">
+                <button class="btn btn-primary">
+                    <span class="btn-icon">+</span> Agregar Servicio
+                </button>
+            </div>
+        </div>
+        
+        <div class="table-responsive">
+            <table aria-describedby="table-description">
+                <caption id="table-description" class="sr-only">Tabla de relación entre reservas y servicios</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">ID Reserva</th>
+                        <th scope="col">ID Servicio</th>
+                        <th scope="col">Nombre Servicio</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Estado</th>
+                        <th scope="col">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>RES-201</td>
+                        <td>SERV-5</td>
+                        <td>Masaje Relajante</td>
+                        <td>2</td>
+                        <td><span class="status-badge status-active">Activo</span></td>
+                        <td class="btn-group">
+                            <button class="btn-action btn-edit" aria-label="Editar relación reserva 201 servicio 5">
+                                Editar
+                            </button>
+                            <button class="btn-action btn-delete" aria-label="Eliminar relación reserva 201 servicio 5">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>RES-202</td>
+                        <td>SERV-8</td>
+                        <td>Tratamiento Facial</td>
+                        <td>1</td>
+                        <td><span class="status-badge status-active">Activo</span></td>
+                        <td class="btn-group">
+                            <button class="btn-action btn-edit" aria-label="Editar relación reserva 202 servicio 8">
+                                Editar
+                            </button>
+                            <button class="btn-action btn-delete" aria-label="Eliminar relación reserva 202 servicio 8">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>RES-203</td>
+                        <td>SERV-3</td>
+                        <td>Manicura Premium</td>
+                        <td>4</td>
+                        <td><span class="status-badge status-pending">Pendiente</span></td>
+                        <td class="btn-group">
+                            <button class="btn-action btn-edit" aria-label="Editar relación reserva 203 servicio 3">
+                                Editar
+                            </button>
+                            <button class="btn-action btn-delete" aria-label="Eliminar relación reserva 203 servicio 3">
+                                Eliminar
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="pagination">
+            <li class="page-item">
+                <a href="#" class="page-link" aria-label="Página anterior">&laquo;</a>
+            </li>
+            <li class="page-item page-active">
+                <a href="#" class="page-link">1</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">2</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link">3</a>
+            </li>
+            <li class="page-item">
+                <a href="#" class="page-link" aria-label="Página siguiente">&raquo;</a>
+            </li>
+        </div>
+    </div>
+    
+    <script>
+        // Aquí podrías añadir funcionalidad JavaScript para:
+        // - Búsqueda en tiempo real
+        // - Filtrado de datos
+        // - Confirmación antes de eliminar
+        // - Carga dinámica de datos
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            // Ejemplo: Confirmación antes de eliminar
+            const deleteButtons = document.querySelectorAll('.btn-delete');
+            deleteButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    if (!confirm('¿Estás seguro de que deseas eliminar esta relación?')) {
+                        e.preventDefault();
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

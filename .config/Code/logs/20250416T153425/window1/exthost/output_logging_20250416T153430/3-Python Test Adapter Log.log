@@ -1,0 +1,84 @@
+2025-04-16T20:34:35.182Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T20:34:35.191Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T20:34:35.193Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T20:34:35.194Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T20:34:35.196Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T20:34:35.197Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T20:34:38.888Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T20:34:38.888Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T20:34:38.888Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T20:34:38.897Z INFO unittest at 'mi_proyecto_api': Unittest test discovery is disabled
+2025-04-16T20:34:38.898Z INFO pytest at 'mi_proyecto_api': Pytest test discovery is disabled
+2025-04-16T20:34:38.898Z INFO testplan at 'mi_proyecto_api': TestPlan test discovery is disabled
+2025-04-16T21:31:50.298Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:31:50.303Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:31:50.303Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:31:50.306Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:31:50.306Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:31:50.307Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:31:50.308Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:31:50.309Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:31:50.309Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:31:50.309Z  DBG unittest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:31:50.310Z  DBG pytest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:31:50.310Z  DBG testplan at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:41:12.854Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:41:12.863Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:41:12.864Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:41:12.868Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:41:12.868Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:41:12.879Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:41:12.881Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:41:12.881Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:41:12.881Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:41:12.882Z  DBG unittest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:41:12.883Z  DBG pytest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:41:12.883Z  DBG testplan at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:42:22.300Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:42:22.302Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:42:22.303Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:42:22.306Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:42:22.306Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:42:22.308Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:42:22.309Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:42:22.309Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:42:22.309Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:42:22.309Z  DBG unittest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:42:22.310Z  DBG pytest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:42:22.310Z  DBG testplan at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:46:25.899Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:46:25.902Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:46:25.902Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:46:25.905Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:46:25.905Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:46:25.911Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:46:25.912Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:46:25.912Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:46:25.912Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:46:25.913Z  DBG unittest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:46:25.913Z  DBG pytest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:46:25.914Z  DBG testplan at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:47:57.511Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:47:57.513Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:47:57.513Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:47:57.515Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:47:57.515Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:47:57.517Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:47:57.517Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:47:57.517Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:47:57.517Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:47:57.517Z  DBG unittest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:47:57.518Z  DBG pytest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:47:57.518Z  DBG testplan at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:56:01.412Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:56:01.414Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:56:01.414Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:56:01.416Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:56:01.416Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T21:56:01.418Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T21:56:01.419Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:56:01.419Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:56:01.419Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T21:56:01.419Z  DBG unittest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:56:01.419Z  DBG pytest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T21:56:01.419Z  DBG testplan at 'mi_proyecto_api': Sending autorun event

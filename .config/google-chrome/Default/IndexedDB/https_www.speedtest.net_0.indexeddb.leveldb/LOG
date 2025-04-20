@@ -1,0 +1,36 @@
+2025/04/09-22:44:11.259 5ddb Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Default/IndexedDB/https_www.speedtest.net_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/09-22:44:11.260 5ddb Recovering log #8
+2025/04/09-22:44:11.260 5ddb Reusing old log /home/HaroldUser/.config/google-chrome/Default/IndexedDB/https_www.speedtest.net_0.indexeddb.leveldb/000008.log 
+2025/04/09-22:44:11.260 5ddb Delete type=2 #7
+2025/04/09-22:44:11.686 5dd9 Level-0 table #13: started
+2025/04/09-22:44:11.690 5dd9 Level-0 table #13: 5472 bytes OK
+2025/04/09-22:44:11.694 5dd9 Delete type=0 #8
+2025/04/09-22:44:11.694 5dd9 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at '\x00\x06\x00\x00\x05' @ 726 : 1
+2025/04/09-22:44:11.694 5dd9 Compacting 1@0 + 1@1 files
+2025/04/09-22:44:11.699 5dd9 Generated table #14@0: 221 keys, 4890 bytes
+2025/04/09-22:44:11.699 5dd9 Compacted 1@0 + 1@1 files => 4890 bytes
+2025/04/09-22:44:11.701 5dd9 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/09-22:44:11.702 5dd9 Delete type=2 #13
+2025/04/09-22:44:11.702 5dd9 Manual compaction at level-0 from '\x00\x06\x00\x00\x05' @ 726 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/09-22:44:11.941 5ddb Level-0 table #16: started
+2025/04/09-22:44:11.946 5ddb Level-0 table #16: 3688 bytes OK
+2025/04/09-22:44:11.951 5ddb Delete type=0 #12
+2025/04/09-22:44:11.952 5ddb Delete type=2 #10
+2025/04/09-22:44:11.957 5ddb Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\xc8\x18\x00u\x00s\x00e\x00r\x00_\x00U\x00n\x00i\x00v\x00S\x00p\x00e\x00e\x00d\x00T\x00e\x00s\x00t\x00R\x00e\x00s\x00u\x00l\x00t' @ 873 : 1
+2025/04/09-22:44:11.957 5ddb Compacting 1@0 + 1@1 files
+2025/04/09-22:44:11.963 5ddb Generated table #17@0: 337 keys, 6007 bytes
+2025/04/09-22:44:11.963 5ddb Compacted 1@0 + 1@1 files => 6007 bytes
+2025/04/09-22:44:11.965 5ddb compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/09-22:44:11.966 5ddb Delete type=2 #16
+2025/04/09-22:44:11.967 5ddb Manual compaction at level-0 from '\x00\x08\x00\x00\xc8\x18\x00u\x00s\x00e\x00r\x00_\x00U\x00n\x00i\x00v\x00S\x00p\x00e\x00e\x00d\x00T\x00e\x00s\x00t\x00R\x00e\x00s\x00u\x00l\x00t' @ 873 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/09-22:44:11.969 5dd9 Level-0 table #19: started
+2025/04/09-22:44:11.973 5dd9 Level-0 table #19: 3087 bytes OK
+2025/04/09-22:44:11.975 5dd9 Delete type=0 #15
+2025/04/09-22:44:11.975 5dd9 Delete type=2 #14
+2025/04/09-22:44:11.977 5ddb Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\xc8\x18\x00u\x00s\x00e\x00r\x00_\x00U\x00n\x00i\x00v\x00S\x00p\x00e\x00e\x00d\x00T\x00e\x00s\x00t\x00R\x00e\x00s\x00u\x00l\x00t' @ 1227 : 0
+2025/04/09-22:44:11.977 5ddb Compacting 1@0 + 1@1 files
+2025/04/09-22:44:11.982 5ddb Generated table #20@0: 323 keys, 5166 bytes
+2025/04/09-22:44:11.982 5ddb Compacted 1@0 + 1@1 files => 5166 bytes
+2025/04/09-22:44:11.985 5ddb compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/09-22:44:11.985 5ddb Delete type=2 #19
+2025/04/09-22:44:11.986 5dd9 Manual compaction at level-0 from '\x00\x08\x00\x00\xc8\x18\x00u\x00s\x00e\x00r\x00_\x00U\x00n\x00i\x00v\x00S\x00p\x00e\x00e\x00d\x00T\x00e\x00s\x00t\x00R\x00e\x00s\x00u\x00l\x00t' @ 1227 : 0 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)

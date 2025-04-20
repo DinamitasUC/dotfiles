@@ -1,0 +1,56 @@
+{
+   "epochs": [ {
+      "calculation_time": "13387919148351960",
+      "config_version": 0,
+      "model_version": "0",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 0,
+      "top_topics_and_observing_domains": [  ]
+   }, {
+      "calculation_time": "13388533644677346",
+      "config_version": 2,
+      "model_version": "5",
+      "padded_top_topics_start_index": 0,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [  ],
+         "topic": 345
+      }, {
+         "hashed_domains": [  ],
+         "topic": 76
+      }, {
+         "hashed_domains": [  ],
+         "topic": 351
+      }, {
+         "hashed_domains": [  ],
+         "topic": 78
+      }, {
+         "hashed_domains": [  ],
+         "topic": 594
+      } ]
+   }, {
+      "calculation_time": "13389138444720532",
+      "config_version": 2,
+      "model_version": "5",
+      "padded_top_topics_start_index": 5,
+      "taxonomy_version": 2,
+      "top_topics_and_observing_domains": [ {
+         "hashed_domains": [ "-5559418710699310812" ],
+         "topic": 423
+      }, {
+         "hashed_domains": [ "-9132193126006108401", "-8020509759457884836", "-5679892804058233143", "-4643778785946775461", "-3665628122487472231", "950787321506754102", "4053061489638918561", "7963629819800920140", "9033503317540357955" ],
+         "topic": 243
+      }, {
+         "hashed_domains": [ "-9132193126006108401", "-6963254549303312846", "-6193062304254369199", "-5679892804058233143", "-3665628122487472231", "950787321506754102", "4053061489638918561", "9033503317540357955" ],
+         "topic": 23
+      }, {
+         "hashed_domains": [ "-9132193126006108401", "-6963254549303312846", "-6193062304254369199", "-5679892804058233143", "-3665628122487472231", "950787321506754102", "4053061489638918561", "9033503317540357955" ],
+         "topic": 100
+      }, {
+         "hashed_domains": [ "-4643778785946775461" ],
+         "topic": 350
+      } ]
+   } ],
+   "hex_encoded_hmac_key": "44752BACC352A53049002A86624B84092B43C65D7A6D86C18ED4577C1F188F18",
+   "next_scheduled_calculation_time": "13389743245100486"
+}

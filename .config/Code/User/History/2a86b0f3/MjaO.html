@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relación Reserva - Servicio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fafafa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .actions {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        .actions button {
+            background: #17a2b8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .actions button:hover {
+            background: #117a8b;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        table thead {
+            background: #17a2b8;
+            color: white;
+        }
+        table th, table td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        table tbody tr:nth-child(even) {
+            background: #f4f6f8;
+        }
+        .btn-group a {
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            margin-right: 5px;
+            color: white;
+            font-size: 14px;
+        }
+        .btn-edit {
+            background-color: #ffc107;
+        }
+        .btn-delete {
+            background-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Relación Reserva - Servicio</h1>
+        <div class="actions">
+            <button>Agregar Servicio a Reserva</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Reserva</th>
+                    <th>ID Servicio</th>
+                    <th>Cantidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>201</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td class="btn-group">
+                        <a href="#" class="btn-edit">Editar</a>
+                        <a href="#" class="btn-delete">Eliminar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>202</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td class="btn-group">
+                        <a href="#" class="btn-edit">Editar</a>
+                        <a href="#" class="btn-delete">Eliminar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>203</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td class="btn-group">
+                        <a href="#" class="btn-edit">Editar</a>
+                        <a href="#" class="btn-delete">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+window {
+    margin: 5px;
+    border: 2px solid #89b4fa;
+    background-color: #1e1e2e;
+    font-family: "JetBrains Mono";
+}
+
+#input {
+    margin: 5px;
+    background-color: #313244;
+    color: #cdd6f4;
+}
+
+#inner-box {
+    margin: 5px;
+    background-color: #1e1e2e;
+}
+
+#entry:selected {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+}

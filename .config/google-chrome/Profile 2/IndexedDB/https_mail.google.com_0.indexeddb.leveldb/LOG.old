@@ -1,0 +1,18 @@
+2025/04/19-23:22:41.666 35a9 Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/19-23:22:41.666 35a9 Recovering log #10
+2025/04/19-23:22:41.688 35a9 Reusing old log /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000010.log 
+2025/04/19-23:22:51.164 35a9 Compacting 1@1 + 1@2 files
+2025/04/19-23:22:51.220 35a9 Generated table #13@1: 179 keys, 704810 bytes
+2025/04/19-23:22:51.221 35a9 Compacted 1@1 + 1@2 files => 704810 bytes
+2025/04/19-23:22:51.226 35a9 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/19-23:22:51.227 35a9 Delete type=2 #11
+2025/04/19-23:22:51.227 35a9 Delete type=2 #9
+2025/04/19-23:22:59.709 35ab Level-0 table #15: started
+2025/04/19-23:22:59.771 35ab Level-0 table #15: 3215219 bytes OK
+2025/04/19-23:22:59.778 35ab Delete type=0 #10
+2025/04/19-23:23:30.647 35aa Compacting 1@1 + 1@2 files
+2025/04/19-23:23:30.685 35aa Generated table #16@1: 177 keys, 681151 bytes
+2025/04/19-23:23:30.685 35aa Compacted 1@1 + 1@2 files => 681151 bytes
+2025/04/19-23:23:30.687 35aa compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/19-23:23:30.688 35aa Delete type=2 #15
+2025/04/19-23:23:30.688 35aa Delete type=2 #13

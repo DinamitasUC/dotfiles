@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Luxury - Sistema de Gestión</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #e74c3c;
+            --accent-color: #f39c12;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --overlay-color: rgba(44, 62, 80, 0.85);
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: var(--light-color);
+            min-height: 100vh;
+        }
+        
+        .overlay {
+            background-color: var(--overlay-color);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .container {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            color: var(--light-color);
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-size: 1.4rem;
+            margin-bottom: 60px;
+            font-weight: 300;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+        
+        .logo {
+            width: 100px;
+            margin-bottom: 30px;
+            filter: drop-shadow(0 0 10px rgba(255,255,255,0.3));
+        }
+        
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            justify-items: center;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+        
+        .button-grid a {
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 25px 20px;
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: var(--light-color);
+            font-size: 1.1rem;
+            transition: all 0.4s ease;
+            text-align: center;
+            min-height: 80px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            backdrop-filter: blur(5px);
+        }
+        
+        .button-grid a:hover {
+            background: var(--light-color);
+            color: var(--primary-color);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            border-color: transparent;
+        }
+        
+        .button-grid a i {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+        }
+        
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            padding: 15px 0;
+            background: rgba(0,0,0,0.3);
+            font-size: 0.9rem;
+            z-index: 1;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .button-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .button-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <img src="https://via.placeholder.com/100x100?text=HL" alt="Hotel Luxury Logo" class="logo">
+        <h1>Sistema de Gestión Hotelera</h1>
+        <p class="subtitle">Administre todas las operaciones de su hotel de manera eficiente y profesional con nuestro sistema integrado de gestión</p>
+        
+        <div class="button-grid">
+            <a href="usuarios.html">
+                <i class="fas fa-users"></i>
+                Usuarios
+            </a>
+            <a href="habitaciones.html">
+                <i class="fas fa-bed"></i>
+                Habitaciones
+            </a>
+            <a href="#">
+                <i class="fas fa-calendar-check"></i>
+                Reservas
+            </a>
+            <a href="#">
+                <i class="fas fa-concierge-bell"></i>
+                Servicios
+            </a>
+            <a href="reserva_servicio.html">
+                <i class="fas fa-link"></i>
+                Reserva - Servicio
+            </a>
+            <a href="adminPagos.html">
+                <i class="fas fa-credit-card"></i>
+                Pagos
+            </a>
+            <a href="empleados.html">
+                <i class="fas fa-user-tie"></i>
+                Empleados
+            </a>
+        </div>
+    </div>
+    
+    <footer>
+        <div style="text-align: center;">
+            &copy; 2023 Hotel Luxury - Todos los derechos reservados
+        </div>
+    </footer>
+</body>
+</html>

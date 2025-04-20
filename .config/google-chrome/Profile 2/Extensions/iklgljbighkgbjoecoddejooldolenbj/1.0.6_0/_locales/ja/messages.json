@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Web ペイント - Web ページに長方形、円、線、その他の図形を描画したり、テキストを追加したりして、結果のスクリーンショットを作成します。 スクリーンショット画像。"
+   },
+   "name": {
+      "message": "ウェブペイントツール"
+   },
+   "rateDialogDesc": {
+      "message": "Would you mind rating us on the Chrome Web Store? Thank you!"
+   },
+   "rateDialogNo": {
+      "message": "Maybe next time"
+   },
+   "rateDialogTitle": {
+      "message": "Useful App for you?"
+   },
+   "rateDialogYes": {
+      "message": "OK, sure"
+   }
+}

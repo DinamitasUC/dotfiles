@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Web boyası - dikdörtgen, daire, çizgiler ve diğer şekiller çizin veya herhangi bir web sayfasına metin ekleyin, ardından sonucun ekran görüntüsünü alın. Ekran görüntüsü."
+   },
+   "name": {
+      "message": "Boya aracı"
+   },
+   "rateDialogDesc": {
+      "message": "Bizi Chrome Web Mağazası'nda derecelendirir misiniz? Teşekkür ederim!"
+   },
+   "rateDialogNo": {
+      "message": "Belki gelecek sefere"
+   },
+   "rateDialogTitle": {
+      "message": "Sizin için Faydalı Uygulama?"
+   },
+   "rateDialogYes": {
+      "message": "TAMAM MI"
+   }
+}

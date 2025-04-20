@@ -1,0 +1,43 @@
+2025-04-16 19:20:25.083 [info] (Client) Pylance async client (2025.4.1) started with python extension (2025.4.0)
+2025-04-16 19:20:26.140 [info] [Info  - 7:20:26 p. m.] (1963) Server root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-16 19:20:26.140 [info] [Info  - 7:20:26 p. m.] (1963) Pylance language server 2025.4.1 (pyright version 1.1.398, commit 4f24eccc) starting
+2025-04-16 19:20:26.144 [info] [Info  - 7:20:26 p. m.] (1963) Starting service instance "mi_proyecto_api" for workspace "/home/HaroldUser/Desktop/mi_proyecto_api"
+2025-04-16 19:20:26.366 [info] [Info  - 7:20:26 p. m.] (1963) Setting environmentName for service "mi_proyecto_api": "3.13.2 (env venv)"
+2025-04-16 19:20:26.367 [info] [Info  - 7:20:26 p. m.] (1963) Setting pythonPath for service "mi_proyecto_api": "/home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python"
+2025-04-16 19:20:26.367 [info] [Info  - 7:20:26 p. m.] (1963) No include entries specified; assuming /home/HaroldUser/Desktop/mi_proyecto_api
+2025-04-16 19:20:26.369 [info] [Info  - 7:20:26 p. m.] (1963) Auto-excluding **/node_modules
+2025-04-16 19:20:26.369 [info] [Info  - 7:20:26 p. m.] (1963) Auto-excluding **/__pycache__
+2025-04-16 19:20:26.371 [info] [Info  - 7:20:26 p. m.] (1963) Auto-excluding **/.*
+2025-04-16 19:20:26.430 [info] [Info  - 7:20:26 p. m.] (1963) Assuming Python version 3.13.2.final.0
+2025-04-16 19:20:26.741 [info] [Info  - 7:20:26 p. m.] (1963) Auto-excluding /home/HaroldUser/Desktop/mi_proyecto_api/env
+2025-04-16 19:20:26.750 [info] [Info  - 7:20:26 p. m.] (1963) Found 1 source file
+2025-04-16 19:20:26.855 [info] [Info  - 7:20:26 p. m.] (1963) Setting environmentName for service "mi_proyecto_api": "3.13.2 (env venv)"
+2025-04-16 19:20:26.855 [info] [Info  - 7:20:26 p. m.] (1963) Setting pythonPath for service "mi_proyecto_api": "/home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python"
+2025-04-16 19:20:26.855 [info] [Info  - 7:20:26 p. m.] (1963) No include entries specified; assuming /home/HaroldUser/Desktop/mi_proyecto_api
+2025-04-16 19:20:26.855 [info] [Info  - 7:20:26 p. m.] (1963) Auto-excluding **/node_modules
+2025-04-16 19:20:26.856 [info] [Info  - 7:20:26 p. m.] (1963) Auto-excluding **/__pycache__
+2025-04-16 19:20:26.856 [info] [Info  - 7:20:26 p. m.] (1963) Auto-excluding **/.*
+2025-04-16 19:20:26.961 [info] [Info  - 7:20:26 p. m.] (1963) Assuming Python version 3.13.2.final.0
+2025-04-16 19:20:27.199 [info] [Info  - 7:20:27 p. m.] (1963) Auto-excluding /home/HaroldUser/Desktop/mi_proyecto_api/env
+2025-04-16 19:20:27.202 [info] [Info  - 7:20:27 p. m.] (1963) Found 1 source file
+2025-04-16 19:20:29.277 [info] [Info  - 7:20:29 p. m.] (1963) BG: Priority queue background worker(2) root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-16 19:20:29.283 [info] [Info  - 7:20:29 p. m.] (1963) BG: Priority queue background worker(2) started
+2025-04-16 19:20:29.926 [info] [Info  - 7:20:29 p. m.] (1963) BG: Indexer background runner(3) root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-04-16 19:20:29.927 [info] [Info  - 7:20:29 p. m.] (1963) BG: Indexing(3) started
+2025-04-16 19:20:31.721 [info] [Info  - 7:20:31 p. m.] (1963) BG: scanned(3) 44 files over 1 exec env
+2025-04-16 19:20:32.149 [info] [Info  - 7:20:32 p. m.] (1963) BG: indexed(3) 44 files over 1 exec env
+2025-04-16 19:20:32.211 [info] [Info  - 7:20:32 p. m.] (1963) BG: Indexing finished(3).
+2025-04-16 19:24:22.990 [info] [Info  - 7:24:22 p. m.] (1963) Setting environmentName for service "mi_proyecto_api": "3.13.2 (env venv)"
+2025-04-16 19:24:22.991 [info] [Info  - 7:24:22 p. m.] (1963) Setting pythonPath for service "mi_proyecto_api": "/home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python"
+2025-04-16 19:24:22.991 [info] [Info  - 7:24:22 p. m.] (1963) No include entries specified; assuming /home/HaroldUser/Desktop/mi_proyecto_api
+2025-04-16 19:24:22.991 [info] [Info  - 7:24:22 p. m.] (1963) Auto-excluding **/node_modules
+2025-04-16 19:24:22.991 [info] [Info  - 7:24:22 p. m.] (1963) Auto-excluding **/__pycache__
+2025-04-16 19:24:22.992 [info] [Info  - 7:24:22 p. m.] (1963) Auto-excluding **/.*
+2025-04-16 19:24:23.139 [info] [Info  - 7:24:23 p. m.] (1963) Assuming Python version 3.13.2.final.0
+2025-04-16 19:24:23.265 [info] [Info  - 7:24:23 p. m.] (1963) Auto-excluding /home/HaroldUser/Desktop/mi_proyecto_api/env
+2025-04-16 19:24:23.268 [info] [Info  - 7:24:23 p. m.] (1963) Found 1 source file
+2025-04-16 19:24:25.550 [info] [Info  - 7:24:25 p. m.] (1963) BG: Indexer background runner(4) root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-04-16 19:24:25.552 [info] [Info  - 7:24:25 p. m.] (1963) BG: Indexing(4) started
+2025-04-16 19:24:26.145 [info] [Info  - 7:24:26 p. m.] (1963) BG: scanned(4) 44 files over 1 exec env
+2025-04-16 19:24:26.544 [info] [Info  - 7:24:26 p. m.] (1963) BG: indexed(4) 44 files over 1 exec env
+2025-04-16 19:24:26.581 [info] [Info  - 7:24:26 p. m.] (1963) BG: Indexing finished(4).

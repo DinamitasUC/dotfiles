@@ -1,0 +1,65 @@
+2025-04-16 15:34:35.537 [info] [main] Log level: Info
+2025-04-16 15:34:35.537 [info] [main] Validating found git in: "git"
+2025-04-16 15:34:35.537 [info] [main] Using git "2.49.0" from "git"
+2025-04-16 15:34:35.537 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-16 15:34:35.537 [info] > git rev-parse --show-toplevel [47ms]
+2025-04-16 15:34:35.537 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-16 15:34:35.537 [info] > git rev-parse --show-toplevel [67ms]
+2025-04-16 15:34:35.537 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-16 15:34:35.545 [info] > git rev-parse --show-toplevel [14ms]
+2025-04-16 15:34:35.545 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-16 15:34:35.572 [info] > git rev-parse --show-toplevel [3ms]
+2025-04-16 15:34:35.572 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-16 15:34:35.575 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-16 16:31:16.859 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-16 16:31:16.869 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-16 16:31:16.900 [info] [Model][openRepository] Opened repository: /home/HaroldUser/Desktop/mi_proyecto_api/SistemaInformacionHotel
+2025-04-16 16:31:16.928 [info] > git config --get commit.template [6ms]
+2025-04-16 16:31:16.947 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2025-04-16 16:31:16.969 [info] > git status -z -uall [12ms]
+2025-04-16 16:31:16.972 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-16 16:31:17.010 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-04-16 16:31:17.025 [info] > git config --get --local branch.master.vscode-merge-base [4ms]
+2025-04-16 16:31:17.036 [info] > git config --get commit.template [25ms]
+2025-04-16 16:31:17.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [5ms]
+2025-04-16 16:31:17.062 [info] > git merge-base refs/heads/master refs/remotes/origin/master [14ms]
+2025-04-16 16:31:17.079 [info] > git diff --name-status -z --diff-filter=ADMR 52d77afd46a6d48d389a637258c0150d45890509...refs/remotes/origin/master [9ms]
+2025-04-16 16:31:17.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2025-04-16 16:31:17.137 [info] > git status -z -uall [11ms]
+2025-04-16 16:31:17.139 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-04-16 16:31:17.459 [info] > git check-ignore -v -z --stdin [3ms]
+2025-04-16 16:31:45.072 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/HaroldUser/Desktop/mi_proyecto_api/SistemaInformacionHotel/.git/HEAD'
+2025-04-16 16:31:45.098 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/HaroldUser/Desktop/mi_proyecto_api/SistemaInformacionHotel/.git/config'
+2025-04-16 16:31:45.161 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/HaroldUser/Desktop/mi_proyecto_api/SistemaInformacionHotel/.git/HEAD'
+2025-04-16 16:31:45.208 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/HaroldUser/Desktop/mi_proyecto_api/SistemaInformacionHotel/.git/config'
+2025-04-16 16:55:22.939 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-16 16:55:22.957 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2025-04-16 16:55:22.968 [info] [Model][openRepository] Opened repository: /home/HaroldUser/Desktop/mi_proyecto_api/templates
+2025-04-16 16:55:23.004 [info] > git config --get commit.template [19ms]
+2025-04-16 16:55:23.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-04-16 16:55:23.065 [info] > git status -z -uall [36ms]
+2025-04-16 16:55:23.066 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-16 16:55:23.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [305ms]
+2025-04-16 16:55:23.578 [info] > git config --get --local branch.master.vscode-merge-base [160ms]
+2025-04-16 16:55:23.603 [info] > git config --get commit.template [207ms]
+2025-04-16 16:55:23.615 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [12ms]
+2025-04-16 16:55:23.669 [info] > git merge-base refs/heads/master refs/remotes/origin/master [31ms]
+2025-04-16 16:55:23.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2025-04-16 16:55:23.758 [info] > git status -z -uall [39ms]
+2025-04-16 16:55:23.759 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2025-04-16 16:55:23.793 [info] > git diff --name-status -z --diff-filter=ADMR 52d77afd46a6d48d389a637258c0150d45890509...refs/remotes/origin/master [100ms]
+2025-04-16 16:55:23.796 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2025-04-16 16:55:23.979 [info] > git diff --name-status -z --diff-filter=ADMR 52d77afd46a6d48d389a637258c0150d45890509...refs/remotes/origin/master [159ms]
+2025-04-16 16:55:23.982 [info] > git show --textconv :index.html [131ms]
+2025-04-16 16:55:23.982 [info] > git ls-files --stage -- index.html [106ms]
+2025-04-16 16:55:24.073 [info] > git check-ignore -v -z --stdin [13ms]
+2025-04-16 16:55:24.074 [info] > git cat-file -s bdb6ab901f6122a62e86401685768c25d824f779 [50ms]
+2025-04-16 16:55:24.840 [info] > git blame --root --incremental 52d77afd46a6d48d389a637258c0150d45890509 -- index.html [11ms]
+2025-04-16 16:56:02.520 [info] > git config --get commit.template [23ms]
+2025-04-16 16:56:02.523 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-04-16 16:56:02.565 [info] > git status -z -uall [21ms]
+2025-04-16 16:56:02.567 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-04-16 16:56:09.439 [info] > git show --textconv :usuarios.html [30ms]
+2025-04-16 16:56:09.445 [info] > git ls-files --stage -- usuarios.html [7ms]
+2025-04-16 16:56:09.470 [info] > git cat-file -s 8396319505ad238c74c914657aec08d43758f291 [4ms]
+2025-04-16 16:56:13.497 [info] > git blame --root --incremental 52d77afd46a6d48d389a637258c0150d45890509 -- usuarios.html [5ms]

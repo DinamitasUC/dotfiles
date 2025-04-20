@@ -1,0 +1,23 @@
+2025/04/15-10:11:47.324 b2d Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/15-10:11:47.325 b2d Recovering log #432
+2025/04/15-10:11:47.325 b2d Reusing old log /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000432.log 
+2025/04/15-10:11:48.679 b2e Level-0 table #442: started
+2025/04/15-10:11:48.686 b2e Level-0 table #442: 2153 bytes OK
+2025/04/15-10:11:48.689 b2e Delete type=0 #432
+2025/04/15-10:11:48.690 b2d Manual compaction at level-0 from '\x00W\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00X\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/15-10:11:52.540 b2d Compacting 1@1 + 6@2 files
+2025/04/15-10:11:52.637 b2d Generated table #443@1: 35020 keys, 2225638 bytes
+2025/04/15-10:11:52.683 b2d Generated table #444@1: 2993 keys, 2154371 bytes
+2025/04/15-10:11:52.752 b2d Generated table #445@1: 12538 keys, 2180999 bytes
+2025/04/15-10:11:52.850 b2d Generated table #446@1: 26056 keys, 2225584 bytes
+2025/04/15-10:11:52.927 b2d Generated table #447@1: 57759 keys, 2196370 bytes
+2025/04/15-10:11:53.012 b2d Generated table #448@1: 62802 keys, 1441400 bytes
+2025/04/15-10:11:53.012 b2d Compacted 1@1 + 6@2 files => 12424362 bytes
+2025/04/15-10:11:53.014 b2d compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/04/15-10:11:53.014 b2d Delete type=2 #436
+2025/04/15-10:11:53.015 b2d Delete type=2 #435
+2025/04/15-10:11:53.015 b2d Delete type=2 #438
+2025/04/15-10:11:53.015 b2d Delete type=2 #434
+2025/04/15-10:11:53.015 b2d Delete type=2 #442
+2025/04/15-10:11:53.015 b2d Delete type=2 #439
+2025/04/15-10:11:53.015 b2d Delete type=2 #437

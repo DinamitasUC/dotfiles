@@ -1,0 +1,9 @@
+2025/04/17-00:52:01.201 3a40 Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/17-00:52:01.202 3a40 Recovering log #320
+2025/04/17-00:52:01.227 3a40 Reusing old log /home/HaroldUser/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000320.log 
+2025/04/17-00:52:07.408 3a40 Compacting 1@1 + 1@2 files
+2025/04/17-00:52:07.519 3a40 Generated table #328@1: 46097 keys, 1809180 bytes
+2025/04/17-00:52:07.520 3a40 Compacted 1@1 + 1@2 files => 1809180 bytes
+2025/04/17-00:52:07.522 3a40 compacted to: files[ 0 4 23 0 0 0 0 ]
+2025/04/17-00:52:07.523 3a40 Delete type=2 #286
+2025/04/17-00:52:07.523 3a40 Delete type=2 #326

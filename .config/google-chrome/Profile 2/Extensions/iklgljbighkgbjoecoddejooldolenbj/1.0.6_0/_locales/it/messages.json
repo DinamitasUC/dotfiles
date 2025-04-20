@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Disegna rettangoli, cerchi, linee e altre forme o aggiungi testo su qualsiasi sito web, quindi cattura lo schermo del risultato. Schermata dell'immagine."
+   },
+   "name": {
+      "message": "Strumento di pittura web"
+   },
+   "rateDialogDesc": {
+      "message": "Ti dispiacerebbe valutarci sul Chrome Web Store? Grazie!"
+   },
+   "rateDialogNo": {
+      "message": "Forse la prossima volta"
+   },
+   "rateDialogTitle": {
+      "message": "App utile per te?"
+   },
+   "rateDialogYes": {
+      "message": "OK"
+   }
+}

@@ -1,0 +1,257 @@
+{
+   "checksum": "aeaf70add920e0f713e6362409ccb90b",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13323928128901924",
+            "date_last_used": "13388061653396315",
+            "guid": "dbb20e92-3162-4323-a7fd-25cc263da48a",
+            "id": "17",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "https://estudiantes.continental.edu.pe/frontdesk",
+            "type": "url",
+            "url": "https://estudiantes.continental.edu.pe/frontdesk"
+         }, {
+            "date_added": "13355417207334590",
+            "date_last_used": "13389142440066223",
+            "guid": "0ff134c0-493f-4a82-b792-0a7b0eaada72",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Aula virtual - Presencial",
+            "type": "url",
+            "url": "https://estudiantesavp.ucontinental.edu.pe/"
+         }, {
+            "date_added": "13386991402956292",
+            "date_last_used": "13389117267083578",
+            "guid": "aa78f949-43ee-4c11-b5ff-d0a064803d58",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Cisco Networking Academy",
+            "type": "url",
+            "url": "https://www.netacad.com/launch?id=9510d07a-5d8f-4563-9360-99a5aa1abcc8&tab=curriculum&view=f589ce53-30c3-5670-acc4-c607d7541ccd"
+         }, {
+            "date_added": "13387257374121027",
+            "date_last_used": "0",
+            "guid": "77415198-1535-4f09-b3f7-ebdb74643f91",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Log in",
+            "type": "url",
+            "url": "https://somee.com/doka/Identity/Account/Login"
+         }, {
+            "date_added": "13387421003333357",
+            "date_last_used": "0",
+            "guid": "d0f786e6-2b22-4498-ba32-015c2ea320ac",
+            "id": "21",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Dual Boot Arch Linux and Windows 11 (2025) // USING ARCH INSTALL SCRIPT - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=mWl4P6DOt9M"
+         }, {
+            "date_added": "13387592453845994",
+            "date_last_used": "0",
+            "guid": "97f26e5d-0571-4863-a2a1-d6aa0c0b8717",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Dual Boot Arch Linux and Windows 11 (NEW) // USING ARCH INSTALL SCRIPT - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=4dKzYmhcGEU"
+         }, {
+            "date_added": "13388172804040903",
+            "date_last_used": "0",
+            "guid": "fdf2a61a-29b0-4344-b707-fa3a4d0ba3e8",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitMind",
+            "type": "url",
+            "url": "https://gitmind.com/app/user/orderList?appgaid=GA1.1.85504213.1743640767&appgeo=3003523659&appvisitor=814a66a112de64bae44d88c80df9c194&apptype=saas-index&applang=es-ES&user_token=v2%2C96062230%2C343%2C6cadfbfeaf0afe906f669fbc8b110328#usageLogs"
+         }, {
+            "date_added": "13388728013210254",
+            "date_last_used": "13389129748927955",
+            "guid": "b20b7b36-10b7-4595-bbf0-2c04869c5bb8",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Login - Conecta Empleo",
+            "type": "url",
+            "url": "https://conectaempleo-formacion.fundaciontelefonica.com/login"
+         } ],
+         "date_added": "13387919148175415",
+         "date_last_used": "0",
+         "date_modified": "13388728013210254",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13340081558606453",
+            "date_last_used": "0",
+            "guid": "813a9cbc-d654-4b98-8080-58de18d6d6a1",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Consigna de Trabajo 2023-20.docx",
+            "type": "url",
+            "url": "https://continentaledupe-my.sharepoint.com/:w:/r/personal/72954886_continental_edu_pe/_layouts/15/Doc.aspx?sourcedoc=%7B831198FE-D96C-436B-9CE0-BA7740292919%7D&file=Consigna%20de%20Trabajo%202023-20.docx&action=default&mobileredirect=true&DefaultItemOpen=1&login_hint=73612216%40continental.edu.pe&ct=1695607774328&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=08c4007b-8c6e-4869-a068-02aab0900115&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=ffc8847c-3c03-4cee-bd44-00779a807e68"
+         }, {
+            "date_added": "13341720926176381",
+            "date_last_used": "0",
+            "guid": "59de39f6-7697-4946-9c68-efa43598f4ae",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "¿Qué tienen que ver Andrés Iniesta, Tyrion Lannister y tus amigos de Facebook? | Teoría de grafos - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=lp-1rvtRYQg"
+         }, {
+            "date_added": "13341811255245583",
+            "date_last_used": "0",
+            "guid": "d5715639-252e-405b-8e58-c6d52e70b660",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Autoevaluación N°8 algebra matricial.pdf - 2/12/22 17:01 Autoevaluación N°8: revisión de intentos Página Principal / Mis cursos / | Course Hero",
+            "type": "url",
+            "url": "https://www.coursehero.com/file/181828404/Autoevaluaci%C3%B3n-N8-algebra-matricialpdf/"
+         }, {
+            "date_added": "13342592392755559",
+            "date_last_used": "0",
+            "guid": "76faa34c-f9ea-48bf-b23c-f6213e2fc339",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "La pena de muerte en el mundo",
+            "type": "url",
+            "url": "https://www.es.amnesty.org/en-que-estamos/temas/pena-de-muerte/"
+         }, {
+            "date_added": "13342592398363550",
+            "date_last_used": "0",
+            "guid": "8252aff7-fc85-4541-ad22-bf2b3b404075",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Kant Imperativo categórico - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=gGEUQtc9zHc"
+         }, {
+            "date_added": "13343317511184448",
+            "date_last_used": "0",
+            "guid": "983fc135-f856-4236-8365-35b64c973f0f",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Notas - Desarrollo del PA1 Ética, globalización y ciudadanía - Documentos de Google",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/19mDkUuzqNKsIkBY6SNn42H9oFOci9kDxBMsZ9oAAgRw/edit#heading=h.cesq8hn1br8e"
+         }, {
+            "date_added": "13343317766952695",
+            "date_last_used": "0",
+            "guid": "ff9d477c-7e05-48cb-a174-cf7918f355cc",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "e",
+            "type": "url",
+            "url": "https://docs.google.com/document/d/19mDkUuzqNKsIkBY6SNn42H9oFOci9kDxBMsZ9oAAgRw/edit"
+         }, {
+            "date_added": "13343318482960482",
+            "date_last_used": "0",
+            "guid": "d688bf54-7552-4a40-93ef-e82a4e54f846",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Indignación en Cajamarca: Menor fue abusada por sus dos abuelos y pide aborto terapéutico - Exitosa Noticias",
+            "type": "url",
+            "url": "https://www.exitosanoticias.pe/exitosa-peru/indignacion-cajamarca-menor-fue-abusada-sus-dos-abuelos-pide-aborto-terapeutico-n111607"
+         }, {
+            "date_added": "13382140694036330",
+            "date_last_used": "0",
+            "guid": "90f02ad4-1acf-4488-9527-fb6facf8fe0e",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "digrama.png - draw.io",
+            "type": "url",
+            "url": "https://app.diagrams.net/"
+         }, {
+            "date_added": "13384035330157693",
+            "date_last_used": "0",
+            "guid": "50c991e2-1e75-4164-80eb-c922d0f1ee68",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Service | AnyLogic Help",
+            "type": "url",
+            "url": "https://anylogic.help/library-reference-guides/process-modeling-library/service.html"
+         }, {
+            "date_added": "13386906140707065",
+            "date_last_used": "0",
+            "guid": "3fc52870-1038-4dfb-855e-7cc60b6017dd",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ERP y CRM de código abierto | Odoo",
+            "type": "url",
+            "url": "https://www.odoo.com/es_ES"
+         }, {
+            "date_added": "13386907337035776",
+            "date_last_used": "0",
+            "guid": "0c0e68c0-d94e-42e8-8ae9-d1d1b45469ce",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "#1 Free Ecommerce Shopping Cart & Free Online Store - Try Ecwid!",
+            "type": "url",
+            "url": "https://www.ecwid.com/"
+         } ],
+         "date_added": "13387919148175420",
+         "date_last_used": "0",
+         "date_modified": "13388172804040903",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13387919148175431",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos del dispositivo",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CmEKQQiIgQISOyAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCTbNd4faMgYAETbNd4faMgYAKVTfeIfaMgYAEgAqGCtpYUhzbVpIbG5zcTZyUmRmWFZQTHc9PUgDEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaeFptN2RtM0ZlTVpVWkhZS01lMmo1R29wdklkWVp4YjVNVDRHOG9EczRaYk9ncGR1bE1TbXNyV05aRWhTbWsvdGgwbUZBbnV6OEpPQXdsUFZqWFpWYmRnMVJFM3c9PRgAIAAoADDNrKCP+bSMAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEu0BCA4S6AEKHGZuc0QwTlgyQ09qcFpaT1VkYzhpVnJCdzFSYz0SZlo6QURxdEFaeHZGZGNseDRJMng1QXVRWnNHbGwrOEMvNzJjMXdDRVdzU0FHT0ZGUVkzSHRRYUJ3YUVTVEVIczIwRDREODIwcGdOb0tkZUVZWUlJYVkxdU44ZWIxbVc5MmlGZ2c9PRgAIAAoADDk+ry49MOLAzjtgNav0DJA7YDWr9AyShxzZmxHeXZFaloyVUhPU21temlmQWJIMWNJeTg9WiAiHv+hLy93QmJ2eUhwUURRSHdsNWpkQU52cjE2Qy9JPWV7wWwCEuwBCAYS5wEKHDltUDlRSzRWQ2NaYmxyeTBxQldiZ05NNkEvaz0SZlo6QURxdEFaeHZGZGNseDRJMng1QXVRWnNHbGwrOHl6cjZSVEpRYUFkK3hKaWZ4OHRCKzNWbHpUZGphcDVockEvMzRFekpEWVM5djM2U29YR2kxWUw1UjFvR2taSitlT3JJRXc9PRgAIAAoADDMlMmBs/SBAzjg38vesjFA4N/L3rIxShx4cUUxMjNQYzVLODZlMnhVSXZnRjVRMDVIMkE9Wh8iHbtCbjFObTdHMk5DOG5pdDE5UW51Nk5lZ0hUV0E9ZTj5OTMS7AEIExLnAQocaHVabUNNUmJuOHJoTWdybUkvTW1wY2kxSE84PRJmWjpBRHF0QVp4dkZkY2x4NEkyeDVBdVFac0dsbCs4QnpEVmNsV1JKcXNaSHdaRm5NWDh0Q0U4cUNIcWJMeHhoNEJEQnJJUnZuZGVDWnRROVcrMWk0RENZMUd5aG1NY203TUJrQT09GAAgACgAMNyRutn4mYwDOMyvnrHbMkDMr56x2zJKHHhyUklnWTc0V1NabFFoTGdhNlM0a01VOUFWbz1aHyId+zAvMytXaVU5d0t4L2cwN3hsUkp4dEF2L0Zibz1lrdPjIRLrAQgFEuYBChwwNnJBbllUaVAvVEV4N0xqN3V2K3VhUmE2MXM9EmZaOkFEcXRBWnh2RmRjbHg0STJ4NUF1UVpzR2xsKzh2S3ZJcWhqa0c0Q2QrKzZ0a3JENDdaMlRYYmwydm5OOXNGS1N3TXdwcHNsSzJpL3RVU01oYS90bVBFbWs3OVp1OVRJVXd3PT0YACAAKAAwpcyr8dfEgQM4ztjw0KwxQM7Y8NCsMUocbWQxcE11UXEvNVR1NkdUZUc4VHhibEtpa3lNPVoeIhx3R0tuNFVEUnlVVWhnNm1qL01rZjdjVEVrdHc9ZcHLpcoS7AEICBLnAQocZ1F2QmhNMlVKQ1ZjYlBkU1U3N0NuSERaL1l3PRJmWjpBRHF0QVp4dkZkY2x4NEkyeDVBdVFac0dsbCs4Z2Q3TlhnYnh5Wm1UazY0VktCUTBka0oxd3VJc2FXclV3MHIwVFZrZi96SUxBcHk0K1AweVBuS0tvZEdrQnc2MHZxdDVzUT09GAAgACgAMNaH9bzhjYIDOLPskf61MUCz7JH+tTFKHHpMR250YlRqS2tCbGlIS2hFb3IrcU5tMDhuUT1aHyId7khoK3Q4aVBtaC95M051NVNxcEZNbElMNTllOD1lv+5IwBLsAQgUEucBChxheUEwRWgxenZ1aFo3OEZDTHdMKzNqZEJuOWs9EmZaOkFEcXRBWnh2RmRjbHg0STJ4NUF1UVpzR2xsKzh1TERQdTNUeFg0SmJGdjBMOVowaWQrV0U1SXVsaFBmKzVDWWMyclIvL1o3bmFscmNYM0s2Sk5hbHgvN3pqMkRCSzNrbDhnPT0YACAAKAAwy4Wcv9ehjAM4qfuHsNwyQKn7h7DcMkocVzlsTVlHY1dPRjByR2hRbTVGTkdielJoRW5rPVofIh39SHlCUjZlbFNtU2tweTVUS3NvNmZteDhob0tFPWUAAAAAEusBCBIS5gEKHDM3WGRlVnpBK3BabXNhNVl5cTVJNXVlS0VKTT0SZlo6QURxdEFaeHZGZGNseDRJMng1QXVRWnNHbGwrOEozRWFEUlFkd1I2UTJLTDRkVms5QjVFbmFxb081R1RaQU80ZnBicjRNTXVEOUh0L0NRYWN1NU14WUlRVFlBMEsrZmJQanc9PRgAIAAoADDR1PSssKuMAzimtL7h5TFAprS+4eUxShxnc3graVpmNTYwVlVMd2lQcUd2NXJFcjhRK2s9Wh4iHE5tWjdEOUJRK1d3UDRCNUQ1Y05CSkRBcHBKND1l0M7z9BLsAQgJEucBChxZK2xQcHE4bUlhb0FYcW9Rb0VGOE1Mb09vZUE9EmZaOkFEcXRBWnh2RmRjbHg0STJ4NUF1UVpzR2xsKzhrNkpJcXdPOWV4OGpEcEh5UEVRNjNpVmMvMGR1d0xsMFhDeEM3cnVoUFpWWXpROTNxSGttcUtOVTFTSkQyUGpFQ2UzSndRPT0YACAAKAAw4e/Lv+GNggM4m5iS/rUxQJuYkv61MUocMVJXcEZJa3ZUbXArbEp2bTEyYkhBNUVUM29vPVofIh33VnNzRXhXM0dCd0tkWUJTN3Urc01yRGhDM2U4PWU4+TkzEuwBCBgS5wEKHE1taWhEdUdHK2d1MmRPQlJRcTFXd0tOdTQvYz0SZlo6QURxdEFaeHZGZGNseDRJMng1QXVRWnNHbGwrOENvbEV3UlFlbHdWUDkwOGxSaHlHemkwYk1Dc1doSGVaVW1ZZXNHZklDWStOSTNwemtUMk9NdHlBTnRtOHVrbklOMFFyZlE9PRgAIAMoAzC2vaLgqbyMAzjJr8nk3zJAlNDJ5N8yShwyYXdSWXI0TXdiOUdkNWZ4SFZwTFd3TElDWGM9Wh8iHf9hRTlvRWRYREZjQzlTemt0R3BFcllJSGVEM2c9ZT0yslsS7QEIGhLoAQocdTk0MG9OemxGRjlXU0owUTlvSFNLcDB1NXE0PRJmWjpBRHF0QVp4dkZkY2x4NEkyeDVBdVFac0dsbCs4RE1wS1JyUUVORFh2dERiTm8ycUl1TW5tMXdPTVc4K1oyR0dQSTlxTFJNN2xxZ21QYm9oUWZ5azM0cVFuandmMzR3aXh0QT09GAAgACgAMKzb4Ia+zIwDOJrTqO3hMkCa06jt4TJKHENWRVRmSFlDMnh3WjNGU2NLOHFsVEt3RkNwWT1aICIe/7AzTVJBSjl4Rmlua1l6Q2pUdG1uVHZFRzE4aGs9ZQUkPyUS7AEIDBLnAQocNjlNQjR1R0FjM1N2K3crRVUrQlBOQkV1QThVPRJmWjpBRHF0QVp4dkZkY2x4NEkyeDVBdVFac0dsbCs4Q2FZQ2FBUjc4SHBUeWJzTnBzNnRpYkVlbE5KZUdrM3hXbVd2eittb0U0SElaQWJCbEc5Y0RTbG1aN0dWWXY1aEc3RURyZz09GAAgACgAMNWe1q/yooIDOJDwrti4MUCQ8K7YuDFKHEdVck02YWsvRlRVWU5QUTVGOE5TM0lSWGwvOD1aHyId/nBRV3V0cjduVzF5NThpOE03K3NtaFJuM0U1Zz1l37e6MhLsAQgHEucBChxLeGxDNERIQlpTRmpKZzVUZ1RYNXMzZzA4eFU9EmZaOkFEcXRBWnh2RmRjbHg0STJ4NUF1UVpzR2xsKzhiTUVObFAxSzh2T3BXL2owSHZiUHpsOGlRYytrVUkyYTc0eHVuSEhiZjB4Wk90dHRrOTVidDF3WkRtOW9hWEs3MEtROUNRPT0YACAAKAAwkP38wIP3gQM4zf/UibMxQM3/1ImzMUocWmhhbGlENllPVElrbGJOVDZzZENLeXE2L2xZPVofIh3dWjE2R1V1aStVVlhMeHFJRmFTUkRiUzBDMVg4PWXT9BcrEu0BCBAS6AEKHDNMT25ZM0N1d3pnd3dYL0NGMEtLcGZic0JsOD0SZlo6QURxdEFaeHZGZGNseDRJMng1QXVRWnNHbGwrODdBUFVRcTYvVzJ6Z0o3RC9QczV6TDQ2M1FPVlVtdngrTFU2ZmJnWE9YSFZZT0l1dHdiQ0I0UUJHQUw4MGZOeDYzWDRBY0E9PRgAIAAoADCZ55/Bv5eMAzjLspOJ2zJAy7KTidsyShw4b2hmUEZjVmlWUWJLOE5wZWNRL2laeW43bDg9WiAiHv/oaXFRU0RuQVN3ZE1Mb01ESmNkNHFncUJDeklVPWXKk9vnEu0BCA8S6AEKHGV5Y2Q2SkprekJKaC9yMFVIVkpOWFpkVjgzbz0SZlo6QURxdEFaeHZGZGNseDRJMng1QXVRWnNHbGwrOHBlQXRCclNYUTJ0QlF4bGljU0FDeVVKOS9PWms0c2dmbmxPTDZUNVZ4T2pVU3NidmgyUjFtWGRkVWEwaXJsdmtYbmtKY0E9PRgAIAAoADCK6e6Gu5eMAzijsMqI2zJAo7DKiNsyShx3WHRSQ29GKzZ6UDBpd0h3NEhYUDRYTlUzY3c9WiAiHv/QUDlkM0FUbTdKRzlQZzNudVAxZlR0ajF1WjlNPWX2nxHaEqsBCAESpgEKHHl4Si82ZnZrZWNyN2twNUVRekI0dFdMcGRiRT0STlo6QURxdEFaeXdIejh1aHpHOWlMZVViZFlpRmN2a1ZpWFF2cHRvVFRCUU5EdHo0d3U1MzFUTjJDMjZNN01ZNTRjbmtaZ1ZLdm82aFJxdhgAIAAoADDNrKCP+bSMAzgAQABKHGFSQ1dMZ2hGOWI1SW5xS0lEdnVKL2p2UWtGYz1aAGUAAAAAEuwBCAoS5wEKHEc4QnVEeW50bXl2WmltVmN4QzNXT2VYZ3RuQT0SZlo6QURxdEFaeHZGZGNseDRJMng1QXVRWnNHbGwrOGlUN0FTOEFUdWgyNkkvemNKdDUvVTVLZDFMVEcwM1NYL3pRYXIzVVhnaDd6SWUwK3AreVA5UWdvWGZiVys0bFBwK0hIY1E9PRgAIAAoADDu5KLg7qKCAziQyPPXuDFAkMjz17gxShw1WkMzNmoxU20xNEk3MjdFRTh0TThUQTlZeFE9Wh8iHftRbU53Z2thTnZNYVphT1czeHBaWFJ6UTVQaFk9ZRUTiLAS7AEIFhLnAQocazNFU0VsVnJZMmE1eXdsVVM4cDd2MmliZExrPRJmWjpBRHF0QVp4dkZkY2x4NEkyeDVBdVFac0dsbCs4dmxIVk0zaExYMnlYaHhRb3J0MFRzL3RLSW9MNmgzNTBDelk0QkZXZXJVUWRvaWJkRHpHcTJKcWtPci8vYTVIbFgyQUI5UT09GAAgACgAMOW0yei3q4wDONbN68/dMkDWzevP3TJKHGhGamdKSm02d29aV1NGd1krTXZJWS9JejVxMD1aHyId/1h0K2VUSVJJRXFqQ0pTWXZHd2o1MXlOV1ZjQT1l/ZyMShLrAQgREuYBChw4YjJPQ0UzMHRSV0l6N3RiYi9PakR3S0JZTU09EmZaOkFEcXRBWnh2RmRjbHg0STJ4NUF1UVpzR2xsKzhEQXNpK3EwcnJzZVI5N2pYcDVoK2JHeExsSThqWEI5WTdaTkxQK0oxRFNaVndGelp0TnJGUENxTUl6R3ZNTnV5ZTRnUmVBPT0YACAAKAAw46eFufvSiwM4hsupuvAwQIbLqbrwMEocdVJ3K2tSMDZGM1gzSWpLL1VnWWdDUGN5a2lNPVoeIhxON0s3VW16bzRvR1Vhc21qT3dhYkQvUDFCTUU9ZYGpgrQS7AEIDRLnAQocQk5udUxJWFJQUWIwdEttK2VGS0RkMm5CSWdRPRJmWjpBRHF0QVp4dkZkY2x4NEkyeDVBdVFac0dsbCs4M0hUaFhpWFhwZmxIc2ZKUENpcEowdnl6cGI5T3piMnM0YkNrUlpJd0NPVGdtZTd1SklCcjFCL2NLTnAxeGxIeXJ6VVo4UT09GAAgACgAMNeJkLnijIsDOJTMnqjJMkCUzJ6oyTJKHHprR3lMMlYxL1k4UGNxL2dnMDdqdmwzeHVXQT1aHyId/0JleXdZWHpGVWNhbE02c24rZ29CZkdPTG1VWT1lyVlgBRLsAQgLEucBChxCdmZMNTIvQXdweVowZ05WamNBUjdZK09lTzA9EmZaOkFEcXRBWnh2RmRjbHg0STJ4NUF1UVpzR2xsKzhiMlFrRmtvRHFCakNBYnZXSjQ0bGJPMHZsNVlzMzFBVzVvOW44dUlNSFFCUU9YV1lNYnY5OVgySkl2MDJHSElucU5YekxBPT0YACAAKAAw1++xwNnqggM4qJaD2LgxQKiWg9i4MUocdzVma1FFRysxVzFHS1ZsamVQOTlKaGpWRWZFPVofIh39Vkg1ejNZTHpzVWREM2pHRW5NZDFJTHd2NWZZPWU5xrawEuwBCBUS5wEKHDVOazRKOThvdHd2ODMwenNqT25zV0lpZEFSVT0SZlo6QURxdEFaeHZGZGNseDRJMng1QXVRWnNHbGwrOCt0WHBlWk5OUVVSUTFiUnhlL0hHRHBuRjgrWS9FdjBiTXlFUG5XNGo2LzhYMWJOcjFBMVJOWWppcVpSd1U0dTNhdi9mVkE9PRgAIAAoADC58cHguaaMAzjFjIv+3DJAxYyL/twyShxtSTY1S1Z1S2xXaUN4OStlYlR0ZHNhU3Z4RkU9Wh8iHf5WRmx1a1cvYlBpaTZlRjlpY0t4dFVSNE1LRjA9Zf2cjEoSwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp4TW9qRXpFcU1RejlNc0JSUVlnMzFLUitjMTVFWEt5cFNpNFI5aVo4VkZaR2pMOFRmZnM5Y21uWTBvK0FnMURFbXJnZ05ETFE2OUxWaThraVdxZmV5N0hWT3ExQT09GAAgACgAMM2soI/5tIwDOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAwATgA",
+   "version": 1
+}

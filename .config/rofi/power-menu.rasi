@@ -1,0 +1,54 @@
+* {
+  font: "JetBrains Mono 12";
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+configuration {
+  drun-display-format: "{name}";
+}
+@theme "power" 
+window {
+  transparency: "real";
+  background-color: rgba(25, 25, 25, 0.95);
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  location: center;
+}
+
+mainbox {
+  border: 0;
+  padding: 0;
+  spacing: 15px;
+  children: [inputbar, listview];
+}
+
+inputbar {
+  background-color: @background;
+  text-color: #eeeeee;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+listview {
+  lines: 4;
+  columns: 1;
+  spacing: 10px;
+  scrollbar: false;
+  fixed-height: true;
+  border-radius: 8px;
+}
+
+element {
+  border-radius: 8px;
+  padding: 5px 10px;
+  text-color: #ffffff;
+  background-color: transparent;
+}
+
+element selected {
+  background-color: #44475a;
+  text-color: #ff79c6;
+}

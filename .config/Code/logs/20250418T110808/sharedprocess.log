@@ -1,0 +1,6 @@
+2025-04-18 11:12:04.718 [info] Getting Manifest... ckolkman.vscode-postgres
+2025-04-18 11:12:04.958 [info] Installing extension: ckolkman.vscode-postgres {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/HaroldUser/.vscode/extensions/extensions.json","path":"/home/HaroldUser/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.99.3","date":"2025-04-15T23:18:46.076Z"}}
+2025-04-18 11:12:09.768 [info] Extension signature verification result for ckolkman.vscode-postgres: Success. Internal Code: 0. Executed: true. Duration: 2199ms.
+2025-04-18 11:12:11.098 [info] Extracted extension to file:///home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3: ckolkman.vscode-postgres
+2025-04-18 11:12:11.188 [info] Renamed to /home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3
+2025-04-18 11:12:11.247 [info] Extension installed successfully: ckolkman.vscode-postgres vscode-userdata:/home/HaroldUser/.vscode/extensions/extensions.json

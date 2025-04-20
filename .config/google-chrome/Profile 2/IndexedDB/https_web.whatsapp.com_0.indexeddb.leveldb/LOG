@@ -1,0 +1,42 @@
+2025/04/15-11:18:47.233 2409 Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/15-11:18:47.234 2409 Recovering log #441
+2025/04/15-11:18:47.323 2409 Reusing old log /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000441.log 
+2025/04/15-11:18:48.916 2413 Level-0 table #451: started
+2025/04/15-11:18:48.977 2413 Level-0 table #451: 1199135 bytes OK
+2025/04/15-11:18:48.981 2413 Delete type=0 #441
+2025/04/15-11:18:48.984 2409 Manual compaction at level-0 from '\x00X\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00Y\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/15-11:18:52.500 240a Compacting 1@1 + 6@2 files
+2025/04/15-11:18:52.624 240a Generated table #452@1: 37122 keys, 2233801 bytes
+2025/04/15-11:18:52.679 240a Generated table #453@1: 2938 keys, 2154512 bytes
+2025/04/15-11:18:52.762 240a Generated table #454@1: 12147 keys, 2179287 bytes
+2025/04/15-11:18:52.855 240a Generated table #455@1: 26600 keys, 2230272 bytes
+2025/04/15-11:18:52.941 240a Generated table #456@1: 56023 keys, 2194885 bytes
+2025/04/15-11:18:53.020 240a Generated table #457@1: 64727 keys, 1487605 bytes
+2025/04/15-11:18:53.021 240a Compacted 1@1 + 6@2 files => 12480362 bytes
+2025/04/15-11:18:53.025 240a compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/04/15-11:18:53.025 240a Delete type=2 #446
+2025/04/15-11:18:53.025 240a Delete type=2 #448
+2025/04/15-11:18:53.025 240a Delete type=2 #445
+2025/04/15-11:18:53.025 240a Delete type=2 #444
+2025/04/15-11:18:53.026 240a Delete type=2 #447
+2025/04/15-11:18:53.026 240a Delete type=2 #451
+2025/04/15-11:18:53.026 240a Delete type=2 #443
+2025/04/15-11:20:01.738 240b Level-0 table #459: started
+2025/04/15-11:20:01.810 240b Level-0 table #459: 1274342 bytes OK
+2025/04/15-11:20:01.816 240b Delete type=0 #450
+2025/04/15-11:20:04.883 240b Compacting 1@1 + 6@2 files
+2025/04/15-11:20:04.991 240b Generated table #460@1: 40795 keys, 2232000 bytes
+2025/04/15-11:20:05.020 240b Generated table #461@1: 2963 keys, 2155576 bytes
+2025/04/15-11:20:05.062 240b Generated table #462@1: 10732 keys, 2173319 bytes
+2025/04/15-11:20:05.155 240b Generated table #463@1: 28382 keys, 2234591 bytes
+2025/04/15-11:20:05.244 240b Generated table #464@1: 49309 keys, 2185997 bytes
+2025/04/15-11:20:05.339 240b Generated table #465@1: 71944 keys, 1656029 bytes
+2025/04/15-11:20:05.339 240b Compacted 1@1 + 6@2 files => 12637512 bytes
+2025/04/15-11:20:05.342 240b compacted to: files[ 0 0 6 0 0 0 0 ]
+2025/04/15-11:20:05.342 240b Delete type=2 #454
+2025/04/15-11:20:05.342 240b Delete type=2 #452
+2025/04/15-11:20:05.343 240b Delete type=2 #459
+2025/04/15-11:20:05.343 240b Delete type=2 #457
+2025/04/15-11:20:05.343 240b Delete type=2 #456
+2025/04/15-11:20:05.343 240b Delete type=2 #455
+2025/04/15-11:20:05.343 240b Delete type=2 #453

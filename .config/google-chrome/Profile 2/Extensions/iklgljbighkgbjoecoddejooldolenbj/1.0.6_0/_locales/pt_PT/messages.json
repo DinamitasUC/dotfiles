@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Pintura da Web - desenhe retângulos, círculos, linhas e outras formas ou adicione texto em qualquer página da Web e, em seguida, capture o resultado. Imagem de captura de tela."
+   },
+   "name": {
+      "message": "Ferramenta de pintura"
+   },
+   "rateDialogDesc": {
+      "message": "Você se importaria de nos avaliar na Chrome Web Store? Obrigado!"
+   },
+   "rateDialogNo": {
+      "message": "Talvez na próxima vez"
+   },
+   "rateDialogTitle": {
+      "message": "Aplicativo útil para você?"
+   },
+   "rateDialogYes": {
+      "message": "OK, sure"
+   }
+}

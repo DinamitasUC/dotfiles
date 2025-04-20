@@ -1,0 +1,15 @@
+2025/04/15-09:46:34.069 b2f Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Profile 2/WebStorage/16/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/04/15-09:46:34.072 b2f Recovering log #4
+2025/04/15-09:46:34.076 b2f Reusing old log /home/HaroldUser/.config/google-chrome/Profile 2/WebStorage/16/IndexedDB/indexeddb.leveldb/000004.log 
+2025/04/15-09:46:38.100 b2f Level-0 table #8: started
+2025/04/15-09:46:38.108 b2f Level-0 table #8: 69561 bytes OK
+2025/04/15-09:46:38.113 b2f Delete type=0 #4
+2025/04/15-09:46:38.114 b2f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/04/15-09:46:38.115 b2f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\xc9\x18RcyB\x00\x03\x00\x00\x00\x00\x00\x006@' @ 933 : 1
+2025/04/15-09:46:38.115 b2f Compacting 1@1 + 1@2 files
+2025/04/15-09:46:38.122 b2f Generated table #9@1: 40 keys, 1123 bytes
+2025/04/15-09:46:38.122 b2f Compacted 1@1 + 1@2 files => 1123 bytes
+2025/04/15-09:46:38.125 b2f compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/04/15-09:46:38.125 b2f Delete type=2 #5
+2025/04/15-09:46:38.126 b2f Delete type=2 #8
+2025/04/15-09:46:38.127 b2f Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xb0\xc9\x18RcyB\x00\x03\x00\x00\x00\x00\x00\x006@' @ 933 : 1 .. (end); will stop at (end)

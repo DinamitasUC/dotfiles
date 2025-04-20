@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "在任何網頁上繪製矩形、圓形、線條和其他形狀或添加文本，然後截取結果的螢幕截圖。"
+   },
+   "name": {
+      "message": "Web Paint Tool - 線上繪圖"
+   },
+   "rateDialogDesc": {
+      "message": "Would you mind rating us on the Chrome Web Store? Thank you!"
+   },
+   "rateDialogNo": {
+      "message": "Maybe next time"
+   },
+   "rateDialogTitle": {
+      "message": "Useful App for you?"
+   },
+   "rateDialogYes": {
+      "message": "OK, sure"
+   }
+}

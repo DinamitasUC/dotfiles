@@ -1,0 +1,44 @@
+node:events:496
+      throw er; // Unhandled 'error' event
+      ^
+
+error: terminando la conexión debido a una orden del administrador
+    at Parser.parseErrorMessage (/home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg-protocol/dist/parser.js:287:98)
+    at Parser.handlePacket (/home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg-protocol/dist/index.js:11:42)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:191:23)
+Emitted 'error' event on PgClient instance at:
+    at PgClient._handleErrorEvent (/home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg/lib/client.js:319:10)
+    at PgClient._handleErrorMessage (/home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg/lib/client.js:330:12)
+    at Connection.emit (node:events:518:28)
+    at /home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.<anonymous> (/home/HaroldUser/.vscode/extensions/ckolkman.vscode-postgres-1.4.3/node_modules/pg-protocol/dist/index.js:11:42)
+    [... lines matching original stack trace ...]
+    at Readable.push (node:internal/streams/readable:392:5) {
+  length: 125,
+  severity: 'FATAL',
+  code: '57P01',
+  detail: undefined,
+  hint: undefined,
+  position: undefined,
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'postgres.c',
+  line: '3315',
+  routine: 'ProcessInterrupts'
+}
+
+Node.js v20.18.3
+[Info  - 11:19:07 a. m.] Connection to server got closed. Server will restart.

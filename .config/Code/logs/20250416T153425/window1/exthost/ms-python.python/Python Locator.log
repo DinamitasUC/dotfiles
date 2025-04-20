@@ -1,0 +1,40 @@
+2025-04-16 15:34:35.304 [info] Starting Python Locator /home/HaroldUser/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python-env-tools/bin/pet server
+2025-04-16 15:34:35.582 [info] Discovered env: /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 15:34:35.590 [info] Discovered env: /bin/python
+2025-04-16 15:34:35.592 [info] Discovered env: /usr/bin/python
+2025-04-16 15:34:35.592 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-04-16 15:34:35.592 [info] Discovered env: /sbin/python
+2025-04-16 15:34:35.594 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-04-16 15:34:35.594 [info] Discovered env: /usr/sbin/python
+2025-04-16 15:34:35.595 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-04-16 15:34:35.595 [info] Discovered env: /sbin/python3
+2025-04-16 15:34:35.596 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-04-16 15:34:35.597 [info] Discovered env: /usr/sbin/python3
+2025-04-16 15:34:35.597 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-04-16 15:34:35.598 [info] Discovered env: /sbin/python3.13
+2025-04-16 15:34:35.598 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.2.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-04-16 15:34:35.598 [info] Discovered env: /usr/sbin/python3.13
+2025-04-16 15:34:35.600 [info] Locator Conda took 262.535577ms
+2025-04-16 15:34:35.600 [info] Locator Homebrew took 133.679µs
+2025-04-16 15:34:35.600 [info] Locator LinuxGlobal took 252.348453ms
+2025-04-16 15:34:35.601 [info] Locator PipEnv took 40.179µs
+2025-04-16 15:34:35.601 [info] Locator Pixi took 51.245µs
+2025-04-16 15:34:35.601 [info] Locator Poetry took 365.833µs
+2025-04-16 15:34:35.601 [info] Locator PyEnv took 5.239513ms
+2025-04-16 15:34:35.601 [info] Locator Venv took 38.311µs
+2025-04-16 15:34:35.601 [info] Locator VirtualEnv took 43.109µs
+2025-04-16 15:34:35.601 [info] Locator VirtualEnvWrapper took 43.952µs
+2025-04-16 15:34:35.601 [info] Locator GlobalVirtualEnvs took 322.573µs
+2025-04-16 15:34:35.601 [info] Locator Locators took 270.215646ms
+2025-04-16 15:34:35.602 [info] Locator Path took 395.908674ms
+2025-04-16 15:34:35.602 [info] Locator Workspaces took 126.26738ms
+2025-04-16 15:34:35.602 [info] Refresh completed in 398ms
+2025-04-16 15:34:35.608 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 15:35:50.443 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 16:32:20.339 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 16:41:55.168 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 16:48:07.957 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 16:49:19.730 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 16:52:17.944 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 16:55:22.956 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16 16:56:09.167 [info] Resolved Python Environment /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python

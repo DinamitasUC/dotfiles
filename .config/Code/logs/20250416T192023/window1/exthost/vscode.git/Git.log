@@ -1,0 +1,33 @@
+2025-04-16 19:20:23.729 [info] [main] Log level: Info
+2025-04-16 19:20:23.729 [info] [main] Validating found git in: "git"
+2025-04-16 19:20:23.729 [info] [main] Using git "2.49.0" from "git"
+2025-04-16 19:20:23.729 [info] [Model][doInitialScan] Initial repository scan started
+2025-04-16 19:20:23.729 [info] > git rev-parse --show-toplevel [34ms]
+2025-04-16 19:20:23.729 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-16 19:20:23.729 [info] > git rev-parse --show-toplevel [132ms]
+2025-04-16 19:20:23.729 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-16 19:20:23.751 [info] > git rev-parse --show-toplevel [82ms]
+2025-04-16 19:20:23.751 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-16 19:20:23.790 [info] > git rev-parse --show-toplevel [7ms]
+2025-04-16 19:20:23.790 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-04-16 19:20:23.810 [info] > git rev-parse --show-toplevel [4ms]
+2025-04-16 19:20:23.825 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-04-16 19:20:23.858 [info] [Model][openRepository] Opened repository: /home/HaroldUser/Desktop/mi_proyecto_api/templates
+2025-04-16 19:20:23.871 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-04-16 19:20:23.892 [info] > git config --get commit.template [10ms]
+2025-04-16 19:20:23.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-04-16 19:20:24.039 [info] > git status -z -uall [105ms]
+2025-04-16 19:20:24.040 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [93ms]
+2025-04-16 19:20:24.152 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2025-04-16 19:20:24.178 [info] > git config --get --local branch.master.vscode-merge-base [14ms]
+2025-04-16 19:20:24.192 [info] > git config --get commit.template [50ms]
+2025-04-16 19:20:24.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [7ms]
+2025-04-16 19:20:24.244 [info] > git merge-base refs/heads/master refs/remotes/origin/master [34ms]
+2025-04-16 19:20:24.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2025-04-16 19:20:24.316 [info] > git diff --name-status -z --diff-filter=ADMR 52d77afd46a6d48d389a637258c0150d45890509...refs/remotes/origin/master [61ms]
+2025-04-16 19:20:24.343 [info] > git status -z -uall [16ms]
+2025-04-16 19:20:24.346 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-04-16 19:20:24.586 [info] > git check-ignore -v -z --stdin [65ms]
+2025-04-16 19:24:22.862 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [29ms]
+2025-04-16 19:24:22.958 [info] > git rev-parse --show-toplevel [12ms]
+2025-04-16 19:24:22.958 [info] fatal: not a git repository (or any of the parent directories): .git

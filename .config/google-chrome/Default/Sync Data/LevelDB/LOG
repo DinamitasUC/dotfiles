@@ -1,0 +1,6 @@
+2025/04/17-00:50:49.592 3a41 Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2025/04/17-00:50:49.598 3a41 Recovering log #60
+2025/04/17-00:50:49.611 3a41 Reusing old log /home/HaroldUser/.config/google-chrome/Default/Sync Data/LevelDB/000060.log 
+2025/04/17-00:50:55.347 3a4b Level-0 table #64: started
+2025/04/17-00:50:55.359 3a4b Level-0 table #64: 102509 bytes OK
+2025/04/17-00:50:55.365 3a4b Delete type=0 #60

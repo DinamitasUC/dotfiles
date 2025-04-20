@@ -1,0 +1,9 @@
+2025-04-18 11:09:52.023 [info] Experiment 'pythonaa' is active
+2025-04-18 11:09:52.023 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-04-18 11:09:52.023 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-18 11:09:52.023 [info] Native locator: Refresh started
+2025-04-18 11:09:52.023 [info] Native locator: Refresh started
+2025-04-18 11:09:52.075 [info] > python -c "import sys;print(sys.executable)"
+2025-04-18 11:09:52.109 [info] Native locator: Refresh finished in 735 ms
+2025-04-18 11:09:52.159 [info] Python interpreter path: /usr/bin/python
+2025-04-18 11:09:55.158 [info] Starting Pylance language server.

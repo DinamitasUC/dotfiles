@@ -1,0 +1,31 @@
+2025-04-17 09:08:46.420 [info] (Client) Pylance async client (2025.4.1) started with python extension (2025.4.0)
+2025-04-17 09:08:47.494 [info] [Info  - 9:08:47 a. m.] (2449) Server root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-17 09:08:47.495 [info] [Info  - 9:08:47 a. m.] (2449) Pylance language server 2025.4.1 (pyright version 1.1.398, commit 4f24eccc) starting
+2025-04-17 09:08:47.496 [info] [Info  - 9:08:47 a. m.] (2449) Starting service instance "mi_proyecto_api" for workspace "/home/HaroldUser/Desktop/mi_proyecto_api"
+2025-04-17 09:08:47.669 [info] [Info  - 9:08:47 a. m.] (2449) Setting environmentName for service "mi_proyecto_api": "3.13.2 (env venv)"
+2025-04-17 09:08:47.670 [info] [Info  - 9:08:47 a. m.] (2449) Setting pythonPath for service "mi_proyecto_api": "/home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python"
+2025-04-17 09:08:47.671 [info] [Info  - 9:08:47 a. m.] (2449) No include entries specified; assuming /home/HaroldUser/Desktop/mi_proyecto_api
+2025-04-17 09:08:47.673 [info] [Info  - 9:08:47 a. m.] (2449) Auto-excluding **/node_modules
+2025-04-17 09:08:47.674 [info] [Info  - 9:08:47 a. m.] (2449) Auto-excluding **/__pycache__
+2025-04-17 09:08:47.674 [info] [Info  - 9:08:47 a. m.] (2449) Auto-excluding **/.*
+2025-04-17 09:08:47.733 [info] [Info  - 9:08:47 a. m.] (2449) Assuming Python version 3.13.2.final.0
+2025-04-17 09:08:48.090 [info] [Info  - 9:08:48 a. m.] (2449) Auto-excluding /home/HaroldUser/Desktop/mi_proyecto_api/env
+2025-04-17 09:08:48.091 [info] [Info  - 9:08:48 a. m.] (2449) Found 1 source file
+2025-04-17 09:08:48.217 [info] [Info  - 9:08:48 a. m.] (2449) Setting environmentName for service "mi_proyecto_api": "3.13.2 (env venv)"
+2025-04-17 09:08:48.217 [info] [Info  - 9:08:48 a. m.] (2449) Setting pythonPath for service "mi_proyecto_api": "/home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python"
+2025-04-17 09:08:48.218 [info] [Info  - 9:08:48 a. m.] (2449) No include entries specified; assuming /home/HaroldUser/Desktop/mi_proyecto_api
+2025-04-17 09:08:48.218 [info] [Info  - 9:08:48 a. m.] (2449) Auto-excluding **/node_modules
+2025-04-17 09:08:48.219 [info] [Info  - 9:08:48 a. m.] (2449) Auto-excluding **/__pycache__
+2025-04-17 09:08:48.222 [info] [Info  - 9:08:48 a. m.] (2449) Auto-excluding **/.*
+2025-04-17 09:08:48.381 [info] [Info  - 9:08:48 a. m.] (2449) Assuming Python version 3.13.2.final.0
+2025-04-17 09:08:48.979 [info] [Info  - 9:08:48 a. m.] (2449) Auto-excluding /home/HaroldUser/Desktop/mi_proyecto_api/env
+2025-04-17 09:08:48.979 [info] [Info  - 9:08:48 a. m.] (2449) Found 1 source file
+2025-04-17 09:08:53.321 [info] [Info  - 9:08:53 a. m.] (2449) BG: Priority queue background worker(2) root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist
+2025-04-17 09:08:53.335 [info] [Info  - 9:08:53 a. m.] (2449) BG: Priority queue background worker(2) started
+2025-04-17 09:08:53.805 [info] [Info  - 9:08:53 a. m.] (2449) BG: Indexer background runner(3) root directory: file:///home/HaroldUser/.vscode/extensions/ms-python.vscode-pylance-2025.4.1/dist (index)
+2025-04-17 09:08:53.808 [info] [Info  - 9:08:53 a. m.] (2449) BG: Indexing(3) started
+2025-04-17 09:08:57.228 [info] [Info  - 9:08:57 a. m.] (2449) BG: [BG(1)] Long operation: SemanticTokens range 0:0 - 30:0 at file:///home/HaroldUser/Desktop/mi_proyecto_api/main.py (3145ms)
+2025-04-17 09:08:57.290 [info] [Info  - 9:08:57 a. m.] (2449) BG: [IDX(3)] Long operation: scan packages file:///home/HaroldUser/Desktop/mi_proyecto_api (3211ms)
+2025-04-17 09:08:57.290 [info] [Info  - 9:08:57 a. m.] (2449) BG: scanned(3) 44 files over 1 exec env
+2025-04-17 09:08:57.719 [info] [Info  - 9:08:57 a. m.] (2449) BG: indexed(3) 44 files over 1 exec env
+2025-04-17 09:08:57.775 [info] [Info  - 9:08:57 a. m.] (2449) BG: Indexing finished(3).

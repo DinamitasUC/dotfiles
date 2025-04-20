@@ -1,0 +1,7 @@
+untitled:Untitled-1 {"typeId":""}
+create user tiendaUser with password 'mishina123';
+grant connect on database tiendadb to tiendaUser;
+GRANT USAGE, SELECT, INSERT, UPDATE, DELETE ON ALL TABLES IN SCHEMA public TO tiendaUser;
+GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA public TO tiendaUser;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT, INSERT, UPDATE, DELETE ON TABLES TO tiendaUser;
+

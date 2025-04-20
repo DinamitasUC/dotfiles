@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "किसी भी वेब पेज पर आयत, वृत्त, रेखाएँ और अन्य आकृतियाँ बनाएँ या टेक्स्ट जोड़ें, फिर परिणाम का स्क्रीनशॉट लें।"
+   },
+   "name": {
+      "message": "वेब पेंट टूल - ऑनलाइन ड्रा करें"
+   },
+   "rateDialogDesc": {
+      "message": "Would you mind rating us on the Chrome Web Store? Thank you!"
+   },
+   "rateDialogNo": {
+      "message": "Maybe next time"
+   },
+   "rateDialogTitle": {
+      "message": "Useful App for you?"
+   },
+   "rateDialogYes": {
+      "message": "OK, sure"
+   }
+}

@@ -1,0 +1,7 @@
+2025/04/14-10:15:06.593 59c Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_www.netacad.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/14-10:15:06.593 59c Recovering log #149
+2025/04/14-10:15:06.594 59c Reusing old log /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_www.netacad.com_0.indexeddb.leveldb/000149.log 
+2025/04/14-10:15:06.595 59c Delete type=2 #148
+2025/04/14-10:15:25.875 59c Level-0 table #154: started
+2025/04/14-10:15:25.906 59c Level-0 table #154: 4130471 bytes OK
+2025/04/14-10:15:25.910 59c Delete type=0 #149

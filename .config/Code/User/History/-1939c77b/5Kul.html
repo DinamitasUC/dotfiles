@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administración de Pagos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .actions {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        .actions button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        .actions button:hover {
+            background: #1e7e34;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        table thead {
+            background: #28a745;
+            color: white;
+        }
+        table th, table td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        table tbody tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .btn-group a {
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 6px;
+            margin-right: 5px;
+            color: white;
+            font-size: 14px;
+        }
+        .btn-edit {
+            background-color: #ffc107;
+        }
+        .btn-delete {
+            background-color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Administración de Pagos</h1>
+        <div class="actions">
+            <button>Registrar Pago</button>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID Pago</th>
+                    <th>ID Reserva</th>
+                    <th>Monto</th>
+                    <th>Método de Pago</th>
+                    <th>Fecha de Pago</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>101</td>
+                    <td>$500.00</td>
+                    <td>tarjeta</td>
+                    <td>2025-04-14 10:23:45</td>
+                    <td class="btn-group">
+                        <a href="#" class="btn-edit">Editar</a>
+                        <a href="#" class="btn-delete">Eliminar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>102</td>
+                    <td>$1200.00</td>
+                    <td>transferencia</td>
+                    <td>2025-04-14 11:10:12</td>
+                    <td class="btn-group">
+                        <a href="#" class="btn-edit">Editar</a>
+                        <a href="#" class="btn-delete">Eliminar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>103</td>
+                    <td>$300.00</td>
+                    <td>efectivo</td>
+                    <td>2025-04-14 12:45:30</td>
+                    <td class="btn-group">
+                        <a href="#" class="btn-edit">Editar</a>
+                        <a href="#" class="btn-delete">Eliminar</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Draw rectangle, circle, lines and others shapes or add text on any web pages, then make screenshot the result."
+   },
+   "name": {
+      "message": "Web Paint Tool - draw online"
+   },
+   "rateDialogDesc": {
+      "message": "Would you mind rating us on the Chrome Web Store? Thank you!"
+   },
+   "rateDialogNo": {
+      "message": "Maybe next time"
+   },
+   "rateDialogTitle": {
+      "message": "Useful App for you?"
+   },
+   "rateDialogYes": {
+      "message": "OK, sure"
+   }
+}

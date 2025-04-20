@@ -1,0 +1,20 @@
+{
+   "description": {
+      "message": "Webbmålning - rita rektangel, cirkel, linjer och andra former eller lägg till text på alla webbsidor och skärmbild sedan resultatet. Skärmdump bild."
+   },
+   "name": {
+      "message": "Målarverktyg - rita online"
+   },
+   "rateDialogDesc": {
+      "message": "Would you mind rating us on the Chrome Web Store? Thank you!"
+   },
+   "rateDialogNo": {
+      "message": "Maybe next time"
+   },
+   "rateDialogTitle": {
+      "message": "Useful App for you?"
+   },
+   "rateDialogYes": {
+      "message": "OK, sure"
+   }
+}

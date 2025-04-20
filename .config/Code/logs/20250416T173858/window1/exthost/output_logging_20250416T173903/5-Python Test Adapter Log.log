@@ -1,0 +1,12 @@
+2025-04-16T22:39:09.146Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T22:39:09.163Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T22:39:09.167Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T22:39:09.173Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T22:39:09.177Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T22:39:09.186Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T22:39:14.360Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T22:39:14.360Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T22:39:14.360Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T22:39:14.368Z INFO unittest at 'mi_proyecto_api': Unittest test discovery is disabled
+2025-04-16T22:39:14.368Z INFO pytest at 'mi_proyecto_api': Pytest test discovery is disabled
+2025-04-16T22:39:14.369Z INFO testplan at 'mi_proyecto_api': TestPlan test discovery is disabled

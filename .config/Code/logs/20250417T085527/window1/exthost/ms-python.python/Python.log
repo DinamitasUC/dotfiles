@@ -1,0 +1,19 @@
+2025-04-17 08:55:37.326 [info] Experiment 'pythonaa' is active
+2025-04-17 08:55:37.326 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-04-17 08:55:37.326 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-04-17 08:55:37.326 [info] Native locator: Refresh started
+2025-04-17 08:55:37.326 [info] Native locator: Refresh started
+2025-04-17 08:55:37.338 [info] > pyenv which python
+2025-04-17 08:55:37.338 [info] cwd: .
+2025-04-17 08:55:38.225 [info] Native locator: Refresh finished in 4181 ms
+2025-04-17 08:55:38.234 [info] Python interpreter path: ./env/bin/python
+2025-04-17 08:55:38.451 [info] > . ./env/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariables.py
+2025-04-17 08:55:38.451 [info] shell: bash
+2025-04-17 08:55:38.590 [info] > /bin/python ~/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariables.py
+2025-04-17 08:55:38.590 [info] shell: bash
+2025-04-17 08:55:38.670 [info] Setting environment variable VIRTUAL_ENV in collection to /home/HaroldUser/Desktop/mi_proyecto_api/env {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-04-17 08:55:38.670 [info] Setting environment variable VIRTUAL_ENV_PROMPT in collection to env {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-04-17 08:55:38.670 [info] Prepending environment variable PS1 in collection with env {"applyAtShellIntegration":true,"applyAtProcessCreation":false}
+2025-04-17 08:55:38.670 [info] Prepending environment variable PATH in collection with /home/HaroldUser/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash:/home/HaroldUser/Desktop/mi_proyecto_api/env/bin: {"applyAtShellIntegration":true,"applyAtProcessCreation":true}
+2025-04-17 08:55:38.672 [info] Send text to terminal: /bin/python /home/HaroldUser/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/printEnvVariablesToFile.py /home/HaroldUser/.vscode/extensions/ms-python.python-2025.4.0-linux-x64/python_files/deactivate/bash/envVars.txt
+2025-04-17 08:55:40.016 [info] Starting Pylance language server.

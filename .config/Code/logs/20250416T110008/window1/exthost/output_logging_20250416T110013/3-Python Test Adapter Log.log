@@ -1,0 +1,24 @@
+2025-04-16T16:00:18.744Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T16:00:18.766Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T16:00:18.769Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T16:00:18.773Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T16:00:18.776Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T16:00:18.779Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T16:00:20.563Z INFO unittest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T16:00:20.570Z  DBG unittest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T16:00:20.570Z INFO pytest at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T16:00:20.575Z  DBG pytest at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T16:00:20.575Z INFO testplan at 'mi_proyecto_api': Reading configuration for workspace mi_proyecto_api
+2025-04-16T16:00:20.577Z  DBG testplan at 'mi_proyecto_api': usingNewInterpreterStorage feature flag is 'true'
+2025-04-16T16:00:22.179Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T16:00:22.179Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T16:00:22.179Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T16:00:22.179Z INFO unittest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T16:00:22.179Z INFO pytest at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T16:00:22.179Z INFO testplan at 'mi_proyecto_api': Using auto-detected pythonPath /home/HaroldUser/Desktop/mi_proyecto_api/env/bin/python
+2025-04-16T16:00:22.197Z INFO unittest at 'mi_proyecto_api': Unittest test discovery is disabled
+2025-04-16T16:00:22.198Z INFO pytest at 'mi_proyecto_api': Pytest test discovery is disabled
+2025-04-16T16:00:22.198Z INFO testplan at 'mi_proyecto_api': TestPlan test discovery is disabled
+2025-04-16T16:00:22.198Z  DBG unittest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T16:00:22.200Z  DBG pytest at 'mi_proyecto_api': Sending autorun event
+2025-04-16T16:00:22.201Z  DBG testplan at 'mi_proyecto_api': Sending autorun event

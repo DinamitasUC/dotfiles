@@ -1,0 +1,21 @@
+2025/04/14-10:14:27.283 59d Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_www.netacad.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/14-10:14:27.284 59d Recovering log #145
+2025/04/14-10:14:27.291 59d Reusing old log /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_www.netacad.com_0.indexeddb.leveldb/000145.log 
+2025/04/14-10:14:27.314 5a7 Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at '\x00\x17\x02\x02\x01\x06\x00s\x00t\x00a\x00t\x00e\x00s' @ 33427 : 1
+2025/04/14-10:14:27.315 5a7 Compacting 1@0 + 1@1 files
+2025/04/14-10:14:27.333 5a7 Generated table #148@0: 5558 keys, 125330 bytes
+2025/04/14-10:14:27.333 5a7 Compacted 1@0 + 1@1 files => 125330 bytes
+2025/04/14-10:14:27.336 5a7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/14-10:14:27.338 5a7 Manual compaction at level-0 from '\x00\x17\x02\x02\x01\x06\x00s\x00t\x00a\x00t\x00e\x00s' @ 33427 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/04/14-10:14:29.949 59d Level-0 table #150: started
+2025/04/14-10:14:29.957 59d Level-0 table #150: 563249 bytes OK
+2025/04/14-10:14:29.960 59d Delete type=0 #145
+2025/04/14-10:14:29.960 59d Delete type=2 #144
+2025/04/14-10:14:29.960 59d Delete type=2 #146
+2025/04/14-10:14:29.961 59b Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at '\x00\x18\x00\x00\xc8 \x00l\x00o\x00c\x00a\x00l\x00-\x00f\x00o\x00r\x00a\x00g\x00e\x00-\x00d\x00e\x00t\x00e\x00c\x00t\x00-\x00b\x00l\x00o\x00b\x00-\x00s\x00u\x00p\x00p\x00o\x00r\x00t' @ 34975 : 1
+2025/04/14-10:14:29.961 59b Compacting 1@0 + 1@1 files
+2025/04/14-10:14:29.979 59b Generated table #151@0: 5631 keys, 94523 bytes
+2025/04/14-10:14:29.979 59b Compacted 1@0 + 1@1 files => 94523 bytes
+2025/04/14-10:14:29.982 59b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/04/14-10:14:29.983 59b Delete type=2 #150
+2025/04/14-10:14:29.984 59b Manual compaction at level-0 from '\x00\x18\x00\x00\xc8 \x00l\x00o\x00c\x00a\x00l\x00-\x00f\x00o\x00r\x00a\x00g\x00e\x00-\x00d\x00e\x00t\x00e\x00c\x00t\x00-\x00b\x00l\x00o\x00b\x00-\x00s\x00u\x00p\x00p\x00o\x00r\x00t' @ 34975 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,6 @@
+2025/04/11-15:27:22.533 453 Creating DB /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_acrobat.adobe.com_0.indexeddb.leveldb since it was missing.
+2025/04/11-15:27:22.550 453 Reusing MANIFEST /home/HaroldUser/.config/google-chrome/Profile 2/IndexedDB/https_acrobat.adobe.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/04/11-15:30:01.387 454 Level-0 table #5: started
+2025/04/11-15:30:01.391 454 Level-0 table #5: 861 bytes OK
+2025/04/11-15:30:01.394 454 Delete type=0 #3
+2025/04/11-15:30:01.395 454 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
